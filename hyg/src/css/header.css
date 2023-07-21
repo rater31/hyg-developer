@@ -1,0 +1,8 @@
+.fondoheader{
+    color: white;
+    background-color:gray;
+    background-image:url(../assets/fondoHeader.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

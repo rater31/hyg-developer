@@ -1,0 +1,14 @@
+.image{
+    height: 447px;
+}
+.line{
+    height: 3px;
+    background-color: red;
+    border-radius: 15px;
+    /* width: 50vh; */
+    
+}
+.landing{
+    height: 512px;
+
+}

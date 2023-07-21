@@ -1,9 +1,10 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import '../css/header.css'
 
 const Header = () => {
   return (
-    <div className="container-fluid fondoheader">
+    <div className="fondoheader w-100">
         <div className="row text-center">
 
             <div className="col-12 ">
