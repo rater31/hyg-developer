@@ -1,5 +1,5 @@
 .image{
-    height: 447px;
+    height: 400px;
 }
 .line{
     height: 3px;
@@ -10,5 +10,15 @@
 }
 .landing{
     height: 512px;
+    width: 273px;
 
+}
+.w-20{
+    width: 2%;
+}
+.line2{
+        height: 3px;
+        background-color: red;
+        border-radius: 15px;
+        width: 20vh;
 }

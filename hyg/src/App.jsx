@@ -5,14 +5,14 @@ function App() {
 
   return (
     <>
-    <div className="conteiner-fluid bg-warning  ">
-      <div className="row w-100 bg-secondary">
-        <div className="col">
+    <div className="conteiner-fluid">
+      <div className="row ">
+        <div className="col ">
             <Header></Header>
         </div>
       </div>
-      <div className="row w-100">
-        <div className="col">
+      <div className="row">
+        <div className="col ">
           <Somos/>
         </div>
       </div>

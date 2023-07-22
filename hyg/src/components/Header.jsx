@@ -4,7 +4,7 @@ import '../css/header.css'
 
 const Header = () => {
   return (
-    <div className="fondoheader w-100">
+    <div className="fondoheader ">
         <div className="row text-center">
 
             <div className="col-12 ">
@@ -17,7 +17,6 @@ const Header = () => {
             <div className="col-12 d-flex justify-content-center">
             <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
-          {/* <a className="navbar-brand" href="#">Navbar</a> */}
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
