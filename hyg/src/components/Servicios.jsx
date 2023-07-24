@@ -15,7 +15,7 @@ const Servicios = () => {
         </div>
         <p className='mt-5'>Una landing page es una página web independiente que está diseñada para una campaña de marketing o publicidad específica. Está diseñada para persuadir a los visitantes a realizar una acción específica, como registrarse para una newsletter, realizar una compra o programar una cita.</p>
      </div>
-     <div className="col-3   mt-5 ">
+     <div className="col-6   mt-5 ">
         <img className='landing' src={landing} alt="" srcset="" />
      </div>
 

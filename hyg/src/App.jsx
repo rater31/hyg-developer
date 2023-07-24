@@ -5,13 +5,8 @@ function App() {
 
   return (
     <>
+    <Header/>
     <div className="container-fluid w-100">
-      
-      <div className="row ">
-        <div className="col-12">
-            <Header></Header>
-        </div>
-      </div>
       <div className="row">
         <div className="col ">
           <Somos/>

@@ -4,8 +4,8 @@ import '../css/header.css'
 
 const Header = () => {
   return (
-    <div className="fondoheader bg-primary m-0 p-0">
-        <div className="row text-center d-grid ">
+    <div className="fondoheader container-fluid">
+        <div className=" row text-center d-grid ">
 
             <div className="col ">
                 <img src={logo} alt="" srcset="" />
