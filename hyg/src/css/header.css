@@ -4,5 +4,6 @@
     background-image:url(../assets/fondoHeader.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
+    
   }

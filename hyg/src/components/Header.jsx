@@ -4,17 +4,17 @@ import '../css/header.css'
 
 const Header = () => {
   return (
-    <div className="fondoheader ">
-        <div className="row text-center">
+    <div className="fondoheader bg-primary m-0 p-0">
+        <div className="row text-center d-grid ">
 
-            <div className="col-12 ">
+            <div className="col ">
                 <img src={logo} alt="" srcset="" />
             </div>
-            <div className="col">
+            <div className="col ">
                 <h1>H&G</h1>
                 <p>Developers</p>
             </div>
-            <div className="col-12 d-flex justify-content-center">
+            <div className="col d-flex  justify-content-center">
             <nav className="navbar navbar-expand-lg ">
         <div className="container-fluid">
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

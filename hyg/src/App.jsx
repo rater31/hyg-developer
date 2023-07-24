@@ -5,9 +5,10 @@ function App() {
 
   return (
     <>
-    <div className="conteiner-fluid">
+    <div className="container-fluid w-100">
+      
       <div className="row ">
-        <div className="col ">
+        <div className="col-12">
             <Header></Header>
         </div>
       </div>
