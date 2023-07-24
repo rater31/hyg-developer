@@ -22,3 +22,21 @@
         border-radius: 15px;
         width: 20vh;
 }
+.boton{
+    padding: auto;
+    width: auto;
+    color: orangered;
+    background-color: transparent;
+    border: white;
+    border-radius: 15px;
+
+    
+    
+}
+.boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #ffff;
+    transition: 0.5s;
+    
+}
