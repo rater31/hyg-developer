@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Somos from './components/Somos'
+import Footer from './components/footer'
+
 function App() {
 
   return (

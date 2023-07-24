@@ -2,6 +2,7 @@ import React from 'react'
 import pcOscura from '../assets/pc-oscura.jpg'
 import '../css/somos.css'
 import Servicios from './Servicios'
+import Footer from './footer'
 const Somos = () => {
   return (
     <div className='row justify-content-around text-light '>
@@ -17,6 +18,9 @@ const Somos = () => {
         </div>
         <div className="col-12 text-center mt-5 ">
             <Servicios/>
+        </div>
+        <div className="col-12 text-center mt-5 ">
+            <Footer/>
         </div>
     </div>
   )
