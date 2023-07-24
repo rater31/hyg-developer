@@ -7,21 +7,28 @@
     background-size: cover;
     
   }
-  .button{
-    padding: auto;
-    width: auto;
-    color: #ffff;
-    background-color: transparent;
-    border: white;
-    border-radius: 15px;
-
-    
-    
+.button2{
+  padding: auto;
+  width: auto;
+  color: #ffff;
+  background-color: transparent;
+  border: white;
+  border-radius: 15px;
 }
-.button:hover{
-    cursor: pointer;
+.button2:hover{
+  cursor: pointer;
     transform: scale(1.1);
-    color: orangered;
+    color: yellow;
     transition: 0.5s;
-    
 }
+.select{
+  color: yellow;
+}
+.select:hover{
+    cursor: pointer;
+      transform: scale(1.1);
+      transition: 0.5s;
+      color: yellow;
+  
+}
+
