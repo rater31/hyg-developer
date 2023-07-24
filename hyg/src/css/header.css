@@ -7,3 +7,21 @@
     background-size: cover;
     
   }
+  .button{
+    padding: auto;
+    width: auto;
+    color: #ffff;
+    background-color: transparent;
+    border: white;
+    border-radius: 15px;
+
+    
+    
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: orangered;
+    transition: 0.5s;
+    
+}

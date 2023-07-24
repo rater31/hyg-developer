@@ -23,22 +23,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link text-light" aria-current="page" href="#">Inicio</a>
+                <a className="nav-link button" aria-current="page" href="#">Inicio</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">Formas de trabajo</a>
+                <a className="nav-link button" href="#">Formas de trabajo</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">Landing page</a>
+                <a className="nav-link button" href="#">Landing page</a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link text-light" href="#">e-commerce</a>
+                <a className="nav-link button" href="#">e-commerce</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">Web corporativa</a>
+                <a className="nav-link button" href="#">Web corporativa</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-light" href="#">Contacto</a>
+                <a className="nav-link button" href="#">Contacto</a>
               </li>
             </ul>
           </div>
