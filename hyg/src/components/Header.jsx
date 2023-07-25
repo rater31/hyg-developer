@@ -32,19 +32,19 @@ const Header = () => {
                 <Link to="/" className="nav-link select"> Inicio </Link> 
               </li>
               <li className="nav-item">
-                <Link to={FormasdeTrabajo} className="nav-link button2"> Formas de trabajo </Link>
+                <Link to="/fromas-de-trabajo" className="nav-link button2"> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
-                <Link to={LandinPage} className="nav-link button2"> Landing page</Link> 
+                <Link to="/landing-page" className="nav-link button2"> Landing page</Link> 
               </li>
               <li className="nav-item ">
-                <Link to={Ecomerce} className="nav-link button2"> e-commerce </Link>
+                <Link to="/e-comerce" className="nav-link button2"> e-commerce </Link>
               </li>
               <li className="nav-item">
-                <Link to={WebCorporativa} className="nav-link button2"> Web corporativa </Link>
+                <Link to="/web-corporativa" className="nav-link button2"> Web corporativa </Link>
               </li>
               <li className="nav-item">
-                <Link to={Contacto} className="nav-link button2"> Contacto </Link> 
+                <Link to="/contacto" className="nav-link button2"> Contacto </Link> 
               </li>
             </ul>
           </div>
