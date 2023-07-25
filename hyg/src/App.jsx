@@ -15,7 +15,7 @@ function App() {
     <Header/>
     <Routes> 
     <Route path="/" element={<Somos />}/>
-    <Route path="/fromas-de-trabajo" element={<FormasdeTrabajo />}/>
+    <Route path="/formas-de-trabajo" element={<FormasdeTrabajo />}/>
     <Route path="/landing-page" element={<LandinPage />}/>
     <Route path="/e-comerce" element={<Ecomerce />}/>
     <Route path="/web-corporativa" element={<WebCorporativa />}/>
@@ -23,9 +23,7 @@ function App() {
     </Route>
     </Routes>
     
-    {/* <div className="container-fluid w-100">
-      <div className="row">
-        <div className="col ">
+    {/* 
           
           
         </div>

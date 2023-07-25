@@ -32,7 +32,7 @@ const Header = () => {
                 <Link to="/" className="nav-link select"> Inicio </Link> 
               </li>
               <li className="nav-item">
-                <Link to="/fromas-de-trabajo" className="nav-link button2"> Formas de trabajo </Link>
+                <Link to="/formas-de-trabajo" className="nav-link button2"> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
                 <Link to="/landing-page" className="nav-link button2"> Landing page</Link> 
