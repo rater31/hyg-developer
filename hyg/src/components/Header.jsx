@@ -1,6 +1,12 @@
 import React from 'react'
 import logo from '../assets/logo.png'
 import '../css/header.css'
+import { Link } from 'react-router-dom'
+import Ecomerce from '../pages/Ecomerce'
+import FormasdeTrabajo from '../pages/FormasdeTrabajo'
+import LandinPage from '../pages/LandinPage'
+import WebCorporativa from '../pages/WebCorporativa'
+import Contacto from '../pages/Contacto'
 
 const Header = () => {
   return (
@@ -23,31 +29,32 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link select" href="#">Inicio</a>
+                <Link to="/" className="nav-link select"> Inicio </Link> 
               </li>
               <li className="nav-item">
-                <a className="nav-link button2" href="#">Formas de trabajo</a>
+                <Link to="/fromas-de-trabajo" className="nav-link button2"> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link button2" href="#">Landing page</a>
+                <Link to="/landing-page" className="nav-link button2"> Landing page</Link> 
               </li>
               <li className="nav-item ">
-                <a className="nav-link button2" href="#">e-commerce</a>
+                <Link to="/e-comerce" className="nav-link button2"> e-commerce </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link button2" href="#">Web corporativa</a>
+                <Link to="/web-corporativa" className="nav-link button2"> Web corporativa </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link button2" href="#">Contacto</a>
+                <Link to="/contacto" className="nav-link button2"> Contacto </Link> 
               </li>
             </ul>
           </div>
         </div>
+        
       </nav>
             </div>
 
         </div>
-
+      
     </div>
   )
 }
