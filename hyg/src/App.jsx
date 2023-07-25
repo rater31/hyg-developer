@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './components/Header'
 import Somos from './components/Somos'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import { Routes, Route } from 'react-router-dom'
 import Ecomerce from './pages/Ecomerce'
 import FormasdeTrabajo from './pages/FormasdeTrabajo'
@@ -22,13 +22,7 @@ function App() {
     <Route path="/contacto" exact component={<Contacto/>}> 
     </Route>
     </Routes>
-    
-    {/* 
-          
-          
-        </div>
-      </div>
-    </div> */}
+    <Footer/>
     </>
   )
 }
