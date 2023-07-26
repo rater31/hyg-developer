@@ -3,23 +3,15 @@ import { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import '../css/header.css'
 import { Link } from 'react-router-dom'
-import Ecomerce from '../pages/Ecomerce'
-import FormasdeTrabajo from '../pages/FormasdeTrabajo'
-import LandinPage from '../pages/LandinPage'
-import WebCorporativa from '../pages/WebCorporativa'
-import Contacto from '../pages/Contacto'
 
 const Header = () => {
-  function cambioColor() {
-    const [isActive, setIsActive] = useState(false);
-  
-    let selectClass = 'select';
-    if (isActive) {
-      selectClass += 'select--active';
-    } 
-    console.log('anda papuuu bien ahi')
-  }
-  
+
+    const [clase, setClase] = useState("button2");
+    const handleClick = () =>{
+      let cl = clase
+      cl=cl.includes("select")?"button2":"button2 select"
+      setClase(cl)
+    }
 
 
 
@@ -43,13 +35,13 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/" className="button2 "> Inicio  </Link> 
+                <Link to="/" onClick={handleClick} className={clase}>inicio</Link> 
               </li>
               <li className="nav-item">
-                <Link to="/formas-de-trabajo" id='menu' className="button2 "> Formas de trabajo </Link>
+                <Link to="/formas-de-trabajo" className="button2"> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
-                <Link to="/landing-page" id='menu' className="button2"> Landing page</Link> 
+                <Link to="/landing-page" className="button2"> Landing page</Link> 
               </li>
               <li className="nav-item ">
                 <Link to="/e-comerce" className=" button2"> e-commerce </Link>

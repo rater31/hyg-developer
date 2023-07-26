@@ -1,9 +1,12 @@
+import { useEffect, useState } from 'react'
 import React from 'react'
 import pcOscura from '../assets/pc-oscura.jpg'
 import '../css/somos.css'
 import Servicios from './Servicios'
 
 const Somos = () => {
+    
+
 return (
     <div className="container-fluid w-100">
     <div className="row">
