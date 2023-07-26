@@ -7,7 +7,7 @@ import diseño from '../assets/diseño.jpg'
 
 const FormasdeTrabajo = () => {
    return (
-      <div className='container-fluid text-light  justify-content-center'>
+      <div className='container-fluid text-light  mt-5 justify-content-center'>
         <div className="row justify-content-center text-light ">
                 <h3 className='text-center'>Formas de trabajo</h3>
             <div className="line2"></div>
