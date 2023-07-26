@@ -14,21 +14,20 @@
   background-color: transparent;
   border: white;
   border-radius: 15px;
-}
-.button2:hover{
-  cursor: pointer;
+  text-decoration: none;
+  padding-inline: 10px;
+  display: block;
+
+  &:hover{
+    cursor: pointer;
     transform: scale(1.1);
     color: yellow;
     transition: 0.5s;
+  }
+
 }
+
+
 .select{
   color: yellow;
 }
-.select:hover{
-    cursor: pointer;
-      transform: scale(1.1);
-      transition: 0.5s;
-      color: yellow;
-  
-}
-

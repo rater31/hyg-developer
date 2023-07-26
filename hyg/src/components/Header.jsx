@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import '../css/header.css'
 import { Link } from 'react-router-dom'
@@ -9,6 +10,19 @@ import WebCorporativa from '../pages/WebCorporativa'
 import Contacto from '../pages/Contacto'
 
 const Header = () => {
+  function cambioColor() {
+    const [isActive, setIsActive] = useState(false);
+  
+    let selectClass = 'select';
+    if (isActive) {
+      selectClass += 'select--active';
+    } 
+    console.log('anda papuuu bien ahi')
+  }
+  
+
+
+
   return (
     <div className="fondoheader container-fluid">
         <div className=" row text-center d-grid ">
@@ -29,22 +43,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/" className="nav-link select"> Inicio </Link> 
+                <Link to="/" className="button2 "> Inicio  </Link> 
               </li>
               <li className="nav-item">
-                <Link to="/formas-de-trabajo" className="nav-link button2"> Formas de trabajo </Link>
+                <Link to="/formas-de-trabajo" id='menu' className="button2 "> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
-                <Link to="/landing-page" className="nav-link button2"> Landing page</Link> 
+                <Link to="/landing-page" id='menu' className="button2"> Landing page</Link> 
               </li>
               <li className="nav-item ">
-                <Link to="/e-comerce" className="nav-link button2"> e-commerce </Link>
+                <Link to="/e-comerce" className=" button2"> e-commerce </Link>
               </li>
               <li className="nav-item">
-                <Link to="/web-corporativa" className="nav-link button2"> Web corporativa </Link>
+                <Link to="/web-corporativa" className=" button2"> Web corporativa </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contacto" className="nav-link button2"> Contacto </Link> 
+                <Link to="/contacto" className=" button2"> Contacto </Link> 
               </li>
             </ul>
           </div>
