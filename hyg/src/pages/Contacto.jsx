@@ -2,19 +2,19 @@ import React from 'react';
 
 const Contacto = () => {
     return (
-        <div>
+        <div className='text-light container-fluid'>
             <h1 className="text-center">Contactenos</h1>
             <form className="row g-3 needs-validation d-grid justify-content-center" noValidate>
         <div className="col-md-12">
           <label htmlFor="validationCustom01" className="form-label">Nombre</label>
-          <input type="text" className="form-control" id="validationCustom01" defaultValue="Nombre" required />
+          <input type="text" className="form-control" id="validationCustom01" placeholder="Nombre" required />
           <div className="valid-feedback">
             Looks good!
           </div>
         </div>
         <div className="col-md-12">
           <label htmlFor="validationCustom02" className="form-label">Apellido</label>
-          <input type="text" className="form-control" id="validationCustom02" defaultValue="Apellido" required />
+          <input type="text" className="form-control" id="validationCustom02" placeholder="Apellido" required />
           <div className="valid-feedback">
             Looks good!
           </div>
@@ -31,7 +31,7 @@ const Contacto = () => {
         </div>
         <div className="col-md-12">
           <label htmlFor="validationCustom03" className="form-label">Email de Contacto</label>
-          <input type="email" className="form-control" id="validationCustom03" defaultValue="Email" required />
+          <input type="email" className="form-control" id="validationCustom03" placeholder="Email" required />
           <div className="invalid-feedback">
             Please provide a valid city.
           </div>
@@ -39,7 +39,7 @@ const Contacto = () => {
         
         <div className="col-md-12">
           <label htmlFor="validationCustom05" className="form-label">Numero de Telefono</label>
-          <input type="tel" className="form-control" id="validationCustom05" required />
+          <input type="tel" className="form-control" id="validationCustom05" placeholder='11 1234567' required />
           <div className="invalid-feedback">
             Please provide a valid zip.
           </div>
