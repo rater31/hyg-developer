@@ -19,7 +19,7 @@ function App() {
     <Route path="/landing-page" element={<LandinPage />}/>
     <Route path="/e-comerce" element={<Ecomerce />}/>
     <Route path="/web-corporativa" element={<WebCorporativa />}/>
-    <Route path="/contacto" exact component={<Contacto/>}> 
+    <Route path="/contacto" element={<Contacto/>}> 
     </Route>
     </Routes>
     <Footer/>
