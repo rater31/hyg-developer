@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contacto = () => {
     return (
-        <div className='text-light container-fluid'>
+        <div className='text-light container-fluid '>
             <h1 className="text-center">Contactenos</h1>
             <form className="row g-3 needs-validation d-grid justify-content-center" noValidate>
         <div className="col-md-12">
