@@ -21,12 +21,12 @@ const FormasdeTrabajo = () => {
                  <p className='mt-5'>Convertimos sus diseños en páginas web que se vean y funcionen de manera excelente El primer paso es diseñar la página web. Esto implica decidir el contenido, la estructura  y el estilo de la página..</p> 
              </div>
              <div className="col-6 d-flex justify-content-center   mt-5 ">
-               <img className='landing' src={diseño} alt="" srcset="" />
+               <img className='imageServicio' src={diseño} alt="" srcset="" />
              </div>
          </div>
       <div className='row text-center align-items-center'>
          <div className="col-7 ms-3 mt-5">
-            <img src={desarrollo} alt="" className='landing' />
+            <img src={desarrollo} alt="" className='imageServicio' />
          </div>
          <div className='col-4 ms-3 mt-5'>
             <h3>Desarrollo</h3>
@@ -45,7 +45,7 @@ const FormasdeTrabajo = () => {
             </div> 
             </div>
          <div className='col-5 ms-3 mt-5'>
-            <img src={testeo} className='landing' alt="" />
+            <img src={testeo} className='imageServicio' alt="" />
          
       </div>
       </div>
