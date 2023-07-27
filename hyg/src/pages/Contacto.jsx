@@ -34,7 +34,7 @@ const Contacto = () => {
               </div>
             </div>
             <div className="col d-flex justify-content-center">
-              <div className="line"></div>
+              <div className="line3"></div>
             </div>
             <div className="col-5 text-center">
               <h4>Seguinos en nuestras redes</h4>
