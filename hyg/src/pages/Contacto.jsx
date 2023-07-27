@@ -48,12 +48,12 @@ const Contacto = () => {
           </div>
 
         </div>
-        <div className="row mt-5">
-        <div className="col">
-          <form className="row g-3 needs-validation  justify-content-center" noValidate>
-            <div className="col-7 mt-4">
+        <div className="row mt-5 ">
+        <div className="col ">
+          <form className="row  d-grid g-3 needs-validation  justify-content-center" noValidate>
+            <div className="col-12 mt-4">
               {/* <label htmlFor="validationCustom01" className="form-label">Nombre</label> */}
-              <input type="text" className="form-control" id="validationCustom01" placeholder="Nombre y Apellido" required />
+              <input type="text" className="form-control transparente " id="validationCustom01" placeholder="Nombre y Apellido" required />
               <div className="valid-feedback">
                 Looks good!
               </div>
@@ -65,36 +65,36 @@ const Contacto = () => {
                 Looks good!
               </div>
             </div> */}
-            <div className="col-7 mt-4">
+            <div className="col-12 mt-4">
               {/* <label htmlFor="validationCustomUsername" className="form-label">Usuario de Instagram</label> */}
               <div className="input-group has-validation">
-                <span className="input-group-text" id="inputGroupPrepend">@</span>
-                <input type="text" className="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder='Tu.instagram' required />
+                <span className="input-group-text transparente" id="inputGroupPrepend">@</span>
+                <input type="text" className="form-control transparente" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder='Tu.instagram' required />
                 <div className="invalid-feedback">
                   Please choose a username.
                 </div>
               </div>
             </div>
-            <div className="col-7 mt-4">
+            <div className="col-12 mt-4">
               {/* <label htmlFor="validationCustom03" className="form-label">Email de Contacto</label> */}
-              <input type="email" className="form-control" id="validationCustom03" placeholder="Email" required />
+              <input type="email" className="form-control transparente" id="validationCustom03" placeholder="Email" required />
               <div className="invalid-feedback">
                 Please provide a valid city.
               </div>
             </div>
 
-            <div className="col-7 mt-4">
+            <div className="col-12 mt-4">
               {/* <label htmlFor="validationCustom05" className="form-label">Número de Telefono o Celular</label> */}
-              <input type="tel" className="form-control" id="validationCustom05" placeholder='Tu Número de Teléfono o Celular' required />
+              <input type="tel" className="form-control transparente" id="validationCustom05" placeholder='Tu Número de Teléfono o Celular' required />
               <div className="invalid-feedback">
                 Please provide a valid zip.
               </div>
             </div>
-            <div className="col-7 mt-4">
+            <div className="col-12 mt-4">
               {/* <label htmlFor="validationCustom05" className="form-label">Dejenos su mensaje</label> */}
-              <textarea className='form-label' name="" id="" cols="45" rows="5" placeholder='Mensaje'></textarea>
+              <textarea className='form-label transparente' name="" id="" cols="45" rows="5" placeholder='Mensaje'></textarea>
             </div>
-            <div className="col-7 mt-4 text-center">
+            <div className="col-12 mt-4 text-center">
               <button className="btn btn-primary" type="submit">Enviar</button>
             </div>
           </form>
