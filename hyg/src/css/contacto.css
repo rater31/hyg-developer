@@ -18,3 +18,12 @@
 .mediante{
     font-size: 25px;
 }
+.fondo-pc{
+    background-image: url(../assets/pc-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fondo-niga{
+    background-color: #0000008f;
+}

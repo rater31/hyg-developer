@@ -10,8 +10,8 @@ import '../css/contacto.css'
 
 const Contacto = () => {
   return (
-    <div className='text-light container-fluid'>
-      <div className="row mt-5">
+    <div className='text-light container-fluid fondo-pc'>
+      <div className="row mt-5 fondo-niga">
         <div className="col-6 text-center">
           <h3 className=''>Nos encantaría conocerte mejor</h3>
           <h1 className="">Contáctanos</h1>
