@@ -1,0 +1,20 @@
+.logo-redes{
+    width: 30px;
+    margin-top: 10px;
+}
+.logo-contacto{
+    width: 20px;
+}
+.line{
+    height:200px;
+    background-color: red;
+    border-radius: 15px;
+    width: 3px;
+    
+}
+.contact{
+    font-size: 20px;
+}
+.mediante{
+    font-size: 25px;
+}
