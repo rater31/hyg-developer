@@ -29,5 +29,13 @@
 }
 .transparente{
     background-color: transparent;
+    border-radius: 15px;
+    width: 100%;
+    border-color: white;
+    padding: 5px;
+    color: white;
 
+}
+::-webkit-input-placeholder{
+    color: whitesmoke;
 }
