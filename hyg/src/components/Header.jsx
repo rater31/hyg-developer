@@ -16,12 +16,12 @@ const Header = () => {
 
   return (
     <div className="fondoheader container-fluid">
-        <div className=" row text-center d-grid ">
-
-            <motion.div style={{rotate}} className="col "> 
+        <div className=" row d-grid text-center justify-content-center  ">
+            <motion.div style={{rotate}} className="col"> 
                 <img src={logo}  alt="" srcset="" />
             </motion.div>
-            <div className="col ">
+
+            <div className="col">
                 <h1>H&G</h1>
                 <p>Developers</p>
             </div>
