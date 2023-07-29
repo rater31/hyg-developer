@@ -1,8 +1,9 @@
 .contenedor{
-    border-color: white;
-    border-width: 1px, solid;
-    background-color: #252525;
-    padding: 10px;
+    background-color: orangered;
     border-radius: 15px;
     color:white;
+}
+.image-contacto{
+    width: 200px;
+    
 }

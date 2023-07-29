@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/web-corporativa.css'
+import secciones from '../assets/anadir.png'
+
 const WebCorporativa = () => {
     return (
         <div className='container-fluid'>
@@ -9,24 +11,45 @@ const WebCorporativa = () => {
                     <h2 className='text-center text-light mt-5'>¿Qué incluye?</h2>
                 </div>
             </div>
-            <div className="row text-start d-grid justify-content-center">
-                <div className="col">
-                    <div className="contenedor">
-                        <ul>
-                            <li>6 Secciones</li>
-                            <li>Hasta 10 fotos</li>
-                            <li>Optimización para todos los dispositivos (móvil, tablet, pc, tv)</li>
-                            <li>1 carrusel con hasta 5 imagenes</li>
-                            <li>1 formulario de contacto</li>
-                            <li>Links a las redes sociales</li>
-                            <li>Botón Flotante de whatsapp</li>
-                            <li>Hosting por 1 año</li>
-                            <li>Dominio por 1 año</li>
-                            <li>Certificado SSL por 1 año</li>
-                        </ul>
-                    </div>
+            <div className="row text-center mt-5 justify-content-center ">
+                <div className="col-3 mt-4 mx-4  contenedor">
+                    <p>6 Secciones</p>
+                </div>
+                <div className="col-3 mt-4 mx-4 contenedor">
+                    <p>Hasta 10 Fotos</p>
+                </div>
+                <div className="col-3 mt-4 mx-4 contenedor text-center">
+                    <p>1 carrusel con hasta 5 imagenes</p>
+                </div>
+                <div className="col-3 mt-4 mx-4 text-center contenedor">
+                    <p>formulario de contacto</p>
+                </div>
+                <div className="col-3 mt-4 mx-4 contenedor">
+                    <p>Links de las Redes </p>
                 </div>
             </div>
+            <div className="row justify-content-center mt-4">
+                <img src={secciones} className='image-contacto my-2 ' alt="" srcset="" />
+
+            </div>
+            <div className="row text-center  justify-content-center ">
+                <div className="col-4 mt-4 mx-4  contenedor">
+                    <p>6 Secciones</p>
+                </div>
+                <div className="col-4 mt-4 mx-4 contenedor">
+                    <p>Hasta 10 Fotos</p>
+                </div>
+                <div className="col-4 mt-4 mx-4 contenedor text-center">
+                    <p>1 carrusel con hasta 5 imagenes</p>
+                </div>
+                <div className="col-3 mt-4 mx-4 text-center contenedor">
+                    <p>formulario de contacto</p>
+                </div>
+                <div className="col-3 mt-4 mx-4 contenedor">
+                    <p>Links de las Redes </p>
+                </div>
+            </div>
+
 
         </div>
     );
