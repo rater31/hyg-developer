@@ -3,18 +3,24 @@ import { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import '../css/header.css'
 import { Link} from 'react-router-dom'
+import {motion, useTime, useTransform } from 'framer-motion'
 
 const Header = () => {
-
-
+  const time = useTime()
+  const rotate = useTransform(
+    time,
+    [0, 4000], // For every 4 seconds...
+    [0, 360], // ...rotate 360deg
+    { clamp: false }
+  )
 
   return (
     <div className="fondoheader container-fluid">
         <div className=" row text-center d-grid ">
 
-            <div className="col ">
-                <img src={logo} alt="" srcset="" />
-            </div>
+            <motion.div style={{rotate}} className="col "> 
+                <img src={logo}  alt="" srcset="" />
+            </motion.div>
             <div className="col ">
                 <h1>H&G</h1>
                 <p>Developers</p>

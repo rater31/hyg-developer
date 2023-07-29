@@ -25,7 +25,7 @@ const WebCorporativa = () => {
                 <div className="col-3 mt-4 mx-4 text-center contenedor">
                     <p>formulario de contacto</p>
                 </div>
-                <div className="col-3 mt-4 mx-4 contenedor">
+                <div className="col-3 mt-4 mx-4 contenedor velozin">
                     <p>Links de las Redes </p>
                 </div>
             </div>
