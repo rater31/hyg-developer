@@ -21,13 +21,13 @@ const Contacto = () => {
               <h3 className='text-center mediante'>Tambien puedes contarcarnos mediante:</h3>
               <div className="row d-grid justify-content-center">
                 <div className="col mt-3">
-                  <span ><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" /> (+54)123 123123</span>
+                  <span ><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" /> (+54) 351 2405292</span>
                 </div>
                 <div className="col mt-3">
-                  <span ><img src={logoTel} className='logo-contacto me-2' alt="" srcset="" />(+54)123 123123</span>
+                  <span ><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" />(+54) 387 6333189</span>
                 </div>
                 <div className="col mt-3">
-                <span ><img src={logoGmail} className='logo-contacto me-2' alt="" srcset="" />correo@correo.com</span>
+                <span ><img src={logoGmail} className='logo-contacto me-2' alt="" srcset="" />hygdevelopers@gmail.com</span>
 
                 </div>
 
@@ -38,7 +38,7 @@ const Contacto = () => {
             </div> */}
             <div className="col-5 text-center">
               <h4>Seguinos en nuestras redes</h4>
-              <a href="#"><img src={logoInstagram} alt="" srcset="" className='logo-redes' /></a>
+              <a href="https://www.instagram.com/hgdevelopers/" target='-blanc'><img src={logoInstagram} alt="" srcset="" className='logo-redes' /></a>
               <br></br>
               <a href="#"><img src={logoLinkedin} alt="" srcset="" className='logo-redes' /></a>
               <br></br>
