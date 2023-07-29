@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/web-corporativa.css'
 import secciones from '../assets/anadir.png'
 
+
 const WebCorporativa = () => {
     return (
         <div className='container-fluid'>

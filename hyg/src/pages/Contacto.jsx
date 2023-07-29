@@ -5,6 +5,8 @@ import logoTiktok from '../assets/tik-tok.png'
 import logoWp from '../assets/whatsapp.png'
 import logoGmail from '../assets/gmail.png'
 import logoTel from '../assets/mensaje-de-telefono.png'
+import logoface from '../assets/facebook.png'
+
 
 import '../css/contacto.css'
 
@@ -42,7 +44,7 @@ const Contacto = () => {
               <br></br>
               <a href="#"><img src={logoLinkedin} alt="" srcset="" className='logo-redes' /></a>
               <br></br>
-              <a href="#"><img src={logoTiktok} alt="" srcset="" className='logo-redes' /></a>
+              <a href="#"><img src={logoface} alt="" srcset="" className='logo-redes' /></a>
 
             </div>
           </div>
