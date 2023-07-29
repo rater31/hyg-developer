@@ -1,11 +1,29 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import React from 'react'
 import pcOscura from '../assets/pc-oscura.jpg'
 import '../css/somos.css'
 import Servicios from './Servicios'
+import {motion, useTime, useTransform, useInView } from 'framer-motion'
 
 const Somos = () => {
-    
+    function Section({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+      
+        return (
+          <section ref={ref}>
+            <span
+              style={{
+                transform: isInView ? "none" : "translateX(-200px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+              }}
+            >
+              {children}
+            </span>
+          </section>
+        );
+      }
 
 return (
     <div className="container-fluid w-100">
@@ -21,7 +39,7 @@ return (
                 <div className="row justify-content-center">
                     <div className="line w-50"></div>
                 </div>
-            <p className='mt-5'>Somos H&G, una sociedad dedicada a la programación especializada en la parte de fullstack, nos destacamos por ofrecer la creación de páginas web de alta calidad y soluciones innovadoras para nuestros clientes.</p>
+            <Section className='mt-5'>Somos H&G, una sociedad dedicada a la programación especializada en la parte de fullstack, nos destacamos por ofrecer la creación de páginas web de alta calidad y soluciones innovadoras para nuestros clientes.</Section>
             </div>
             <div className="col-12 text-center mt-5 ">
                 <Servicios/>
