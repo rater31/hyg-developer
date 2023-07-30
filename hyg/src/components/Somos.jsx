@@ -25,6 +25,25 @@ const Somos = () => {
     );
   }
 
+  function IzDer({ children }) {
+    const ref = useRef(null);
+    const isInView = useInView(ref, { once: true });
+
+    return (
+      <section ref={ref}>
+          <span
+            style={{
+                transform: isInView ? "none" : "translateX(-100px)",
+                opacity: isInView ? 1 : 0,
+                transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+            }}
+          >
+            {children}
+          </span>
+      </section>
+    );
+}
+
   return (
     <div className="container-fluid w-100">
       <div className="row">
@@ -32,7 +51,9 @@ const Somos = () => {
 
           <div className='row justify-content-around text-light '>
             <div className="col-6 col-xxl-2  mt-5 ">
+              <IzDer>
               <img className='image' src={pcOscura} alt="" srcset="" />
+              </IzDer>
             </div>
             <div className="col-6  col-xxl-4 text-center mt-5 " >
               <h3>Quienes Somos</h3>
