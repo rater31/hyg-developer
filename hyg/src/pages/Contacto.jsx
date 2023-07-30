@@ -1,4 +1,4 @@
-import React from 'react';
+import {React,useRef} from 'react';
 import logoInstagram from '../assets/instagram.png'
 import logoLinkedin from '../assets/linkedin.png'
 import logoTiktok from '../assets/tik-tok.png'
@@ -11,6 +11,8 @@ import logoface from '../assets/facebook.png'
 import '../css/contacto.css'
 
 const Contacto = () => {
+
+
   return (
     <div className='text-light container-fluid fondo-pc'>
       <div className="row mt-3 fondo-niga">
