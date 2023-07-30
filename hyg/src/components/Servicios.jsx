@@ -10,7 +10,7 @@ const Servicios = () => {
 
    // viene de izquierda a derecha
 
-   function Section({ children }) {
+   function IzDer({ children }) {
       const ref = useRef(null);
       const isInView = useInView(ref, { once: true });
 
@@ -31,14 +31,14 @@ const Servicios = () => {
 
    // peligro prueba experimental viene de derecha a izquierda
 
-   function Image({ children }) {
+   function DerIz({ children }) {
       const ref = useRef(null);
       const isInView = useInView(ref, { once: true });
       return (
          <section ref={ref}>
             <span
                style={{
-                  transform: isInView ? "none" : "translateX(500px)",
+                  transform: isInView ? "none" : "translateX(200px)",
                   opacity: isInView ? 1 : 0,
                   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                }}
@@ -66,7 +66,7 @@ const Servicios = () => {
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
                </div>
-               <Section className='mt-5'>Una landing page es una página web independiente que está diseñada para una campaña de marketing o publicidad específica. Está diseñada para persuadir a los visitantes a realizar una acción específica, como registrarse para una newsletter, realizar una compra o programar una cita.</Section>
+               <IzDer className='mt-5'>Una landing page es una página web independiente que está diseñada para una campaña de marketing o publicidad específica. Está diseñada para persuadir a los visitantes a realizar una acción específica, como registrarse para una newsletter, realizar una compra o programar una cita.</IzDer>
                <Link to="/landing-page"><button className='boton'> Más Info</button></Link>
             </div>
             <div className="col-6   mt-5 ">
@@ -82,7 +82,7 @@ const Servicios = () => {
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
                </div>
-               <Section className='mt-5'>Una tienda de comercio electrónico es un sitio web que permite a los clientes comprar bienes y servicios en línea. Las tiendas de comercio electrónico suelen utilizar plataformas de comercio electrónico para gestionar sus pedidos, inventario y pagos..</Section>
+               <DerIz className='mt-5'>Una tienda de comercio electrónico es un sitio web que permite a los clientes comprar bienes y servicios en línea. Las tiendas de comercio electrónico suelen utilizar plataformas de comercio electrónico para gestionar sus pedidos, inventario y pagos..</DerIz>
                <Link to="/e-comerce"><button className='boton'> Más Info</button></Link>
             </div>
          </div>
@@ -91,7 +91,7 @@ const Servicios = () => {
                <h3>Web Corporativa</h3>
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
-                  <Section className='mt-5'>Una web corporativa es un sitio web que representa a una empresa o organización. Su propósito es dar información sobre la empresa, sus productos o servicios  y sus empleados. También puede utilizarse para comercializar los mismos, generar un Cliente potencial y aumentar la visibilidad de la marca.</Section>
+                  <IzDer className='mt-5'>Una web corporativa es un sitio web que representa a una empresa o organización. Su propósito es dar información sobre la empresa, sus productos o servicios  y sus empleados. También puede utilizarse para comercializar los mismos, generar un Cliente potencial y aumentar la visibilidad de la marca.</IzDer>
                   <Link to="/web-corporativa"><button className='boton'> Más Info</button></Link>
                </div>
             </div>
@@ -99,15 +99,7 @@ const Servicios = () => {
                <img src={WebCorporativa} className='landing' alt="" />
 
             </div>
-            {/* div de prueba */}
-            <div className="col-6">
 
-               <Image className='col-5'>
-                  <img src={WebCorporativa} className='landing' alt="" />
-
-               </Image>
-            </div>
-            {/* f div */}
          </div>
 
       </>
