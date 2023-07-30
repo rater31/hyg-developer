@@ -18,7 +18,7 @@ const Servicios = () => {
          <section ref={ref}>
             <span
                style={{
-                  transform: isInView ? "none" : "translateX(-200px)",
+                  transform: isInView ? "none" : "translateX(-100px)",
                   opacity: isInView ? 1 : 0,
                   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                }}
@@ -38,7 +38,7 @@ const Servicios = () => {
          <section ref={ref}>
             <span
                style={{
-                  transform: isInView ? "none" : "translateX(200px)",
+                  transform: isInView ? "none" : "translateX(100px)",
                   opacity: isInView ? 1 : 0,
                   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                }}
@@ -69,13 +69,18 @@ const Servicios = () => {
                <IzDer className='mt-5'>Una landing page es una página web independiente que está diseñada para una campaña de marketing o publicidad específica. Está diseñada para persuadir a los visitantes a realizar una acción específica, como registrarse para una newsletter, realizar una compra o programar una cita.</IzDer>
                <Link to="/landing-page"><button className='boton'> Más Info</button></Link>
             </div>
-            <div className="col-6   mt-5 ">
+            <div className="col-6 mt-5">
+            <DerIz >
                <img className='landing' src={landing} alt="" srcset="" />
+            </DerIz>
+
             </div>
          </div>
          <div className='row  align-items-center'>
-            <div className="col-7 ms-3 mt-5">
+            <div className="col-6  mt-5">
+               <IzDer>
                <img src={ecomerce} alt="" className='landing' />
+               </IzDer>
             </div>
             <div className='col-4 ms-3 mt-5'>
                <h3>E-Comerce</h3>
@@ -95,8 +100,10 @@ const Servicios = () => {
                   <Link to="/web-corporativa"><button className='boton'> Más Info</button></Link>
                </div>
             </div>
-            <div className='col-5 ms-3 mt-5'>
+            <div className='col-4 ms-3 mt-5'>
+               <DerIz>
                <img src={WebCorporativa} className='landing' alt="" />
+               </DerIz>
 
             </div>
 
