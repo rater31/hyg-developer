@@ -11,8 +11,11 @@ const WebCorporativa = () => {
         <div className="row mt-3">
             <div className="col text-center">
                 <h1 className="">Web Corporativa</h1>
-                <h3 className=''>Servicios Que Transforman</h3>
-                <p> Nos especializamos en ofrecer soluciones web corporativas innovadoras y efectivas. Nuestro equipo de expertos trabajará incansablemente para elevar tu negocio al siguiente nivel.</p>
+                <div className="row justify-content-center">
+                        <div className="line w-25"></div>
+                    </div>
+                <h3 className='mt-4'>Servicios Que Transforman</h3>
+                <p className='mt-3'> Nos especializamos en ofrecer soluciones web corporativas innovadoras y efectivas. Nuestro equipo de expertos trabajará incansablemente para elevar tu negocio al siguiente nivel.</p>
             </div>
         </div>
         <div className="row align-items-center mt-5">
@@ -20,7 +23,10 @@ const WebCorporativa = () => {
                 <h4>
                 Diseño Web Único Y Atractivo
                 </h4>
-                <p>Nuestros expertos en diseño crean sitios web asombrosos que encajan perfectamente con la identidad visual de tu empresa, capturando la atención de tus clientes.</p>
+                <div className="row justify-content-center">
+                        <div className="line w-50"></div>
+                    </div>
+                <p className='mt-3'>Nuestros expertos en diseño crean sitios web asombrosos que encajan perfectamente con la identidad visual de tu empresa, capturando la atención de tus clientes.</p>
             </div>
             <div className="col-6 justify-content-center d-flex">
                 <img src="" className='image' alt="" />
@@ -35,7 +41,10 @@ const WebCorporativa = () => {
                 <h4>
                 Optimización Y Promoción Online
                 </h4>
-                <p>Incrementa tus métricas y conecta con tu público objetivo. Nos encargamos de la optimización SEO y la promoción de tus redes sociales.</p>
+                <div className="row justify-content-center">
+                        <div className="line w-50"></div>
+                    </div>
+                <p className='mt-3'>Incrementa tus métricas y conecta con tu público objetivo. Nos encargamos de la optimización SEO y la promoción de tus redes sociales.</p>
             </div>
         </div>
         <div className="row text-center">

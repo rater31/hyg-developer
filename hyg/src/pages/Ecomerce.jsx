@@ -12,7 +12,10 @@ const Ecomerce = () => {
         <div className="row mt-3">
             <div className="col text-center">
                 <h1 className="">E-comerce</h1>
-                <h3 className=''>Despega tu negocio en línea y conquista el mercado con nuestra plataforma de comercio electrónico personalizada. Diseñada específicamente para empresas, ¡tu éxito es nuestra misión!</h3>
+                <div className="row justify-content-center">
+                        <div className="line w-25"></div>
+                    </div>
+                <h3 className='mt-3'>Despega tu negocio en línea y conquista el mercado con nuestra plataforma de comercio electrónico personalizada. Diseñada específicamente para empresas, ¡tu éxito es nuestra misión!</h3>
             </div>
         </div>
         <div className="row align-items-center mt-5">
@@ -20,7 +23,10 @@ const Ecomerce = () => {
                 <h4>
                 Vende tus productos en línea con estilo y facilidad
                 </h4>
-                <p>Nuestro equipo de diseño y programación garantiza que tu tienda en línea no sólo se vea genial, sino que también sea fácil de usar y mantener. Incrementa tus ventas y expande tu negocio.</p>
+                <div className="row justify-content-center">
+                        <div className="line w-75"></div>
+                    </div>
+                <p className='mt-3'>Nuestro equipo de diseño y programación garantiza que tu tienda en línea no sólo se vea genial, sino que también sea fácil de usar y mantener. Incrementa tus ventas y expande tu negocio.</p>
             </div>
             <div className="col-6 justify-content-center d-flex">
                 <img src={Ecomerce1} className='image' alt="" />
@@ -35,7 +41,10 @@ const Ecomerce = () => {
                 <h4>
                 Mantén a tus clientes felices y seguros
                 </h4>
-                <p>La seguridad de tus clientes es nuestra prioridad. Aseguramos que los datos estén protegidos y ofrecemos opciones flexibles de pago para satisfacer todas las necesidades.</p>
+                <div className="row justify-content-center">
+                        <div className="line w-50"></div>
+                    </div>
+                <p className='mt-3'>La seguridad de tus clientes es nuestra prioridad. Aseguramos que los datos estén protegidos y ofrecemos opciones flexibles de pago para satisfacer todas las necesidades.</p>
             </div>
         </div>
         <div className="row text-center mt-5">
