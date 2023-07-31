@@ -11,8 +11,11 @@ const LandinPage = () => {
         <div className='text-light container-fluid'>
             <div className="row mt-3">
                 <div className="col text-center">
-                    <h1 className="">Landin Page</h1>
-                    <h3 className=''>Siempre queremos lo mejor para nuestros clientes por eso ofrecemos el siguiente servicio:</h3>
+                    <h1 className="">Landing Page</h1>
+                    <div className="row justify-content-center">
+                        <div className="line w-25"></div>
+                    </div>
+                    <h3 className='mt-3'>Siempre queremos lo mejor para nuestros clientes por eso ofrecemos el siguiente servicio:</h3>
                 </div>
             </div>
             <div className="row align-items-center mt-5">
@@ -20,7 +23,11 @@ const LandinPage = () => {
                     <h4>
                         Diseño Personalizado y Funcionalidad Única
                     </h4>
-                    <p>Ofrecemos diseños personalizados y funciones únicas para garantizar que tu página de aterrizaje destaque en el mercado.</p>
+                    <div className="row justify-content-center">
+                        <div className="line w-50"></div>
+                    </div>
+
+                    <p className='mt-3'> Ofrecemos diseños personalizados y funciones únicas para garantizar que tu página de aterrizaje destaque en el mercado.</p>
                 </div>
                 <div className="col-6 justify-content-center d-flex">
                     <img src={Landing2} className='image' alt="" />
@@ -35,12 +42,15 @@ const LandinPage = () => {
                     <h4>
                         Diseño Personalizado y Funcionalidad Única
                     </h4>
-                    <p>Nuestro talentoso equipo de diseñadores y desarrolladores trabajará contigo para crear la página de aterrizaje perfecta para tu negocio.</p>
+                    <div className="row justify-content-center">
+                        <div className="line w-50"></div>
+                    </div>
+                    <p className='mt-3'>Nuestro talentoso equipo de diseñadores y desarrolladores trabajará contigo para crear la página de aterrizaje perfecta para tu negocio.</p>
                 </div>
             </div>
             <div className="row text-center mt-5">
-            <h3>¿Estás listo para revolucionar tu presencia online?</h3>
-            <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de Landing Page.</p>
+                <h3>¿Estás listo para revolucionar tu presencia online?</h3>
+                <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de Landing Page.</p>
             </div>
             <div className="row justify-content-around mt-5">
                 <div className="card" style={{ width: '18rem' }}>
