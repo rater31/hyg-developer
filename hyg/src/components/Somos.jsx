@@ -61,7 +61,7 @@ const Somos = () => {
                 <div className="line w-50"></div>
               </div>
               <div className="col-11 text-center">
-                <Section className='mt-5'>Somos H&G, una sociedad dedicada a la programación especializada en la parte de fullstack, nos destacamos por ofrecer la creación de páginas web de alta calidad y soluciones innovadoras para nuestros clientes.</Section>
+                <Section><p className='mt-3'>Somos H&G, una sociedad dedicada a la programación especializada en la parte de fullstack, nos destacamos por ofrecer la creación de páginas web de alta calidad y soluciones innovadoras para nuestros clientes.</p></Section>
               </div>
             </div>
             <div className="col-12 text-center mt-5 ">
