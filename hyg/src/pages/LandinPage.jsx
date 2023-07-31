@@ -35,7 +35,7 @@ const LandinPage = () => {
                     <h4>
                         Diseño Personalizado y Funcionalidad Única
                     </h4>
-                    <p>Ofrecemos diseños personalizados y funciones únicas para garantizar que tu página de aterrizaje destaque en el mercado.</p>
+                    <p>Nuestro talentoso equipo de diseñadores y desarrolladores trabajará contigo para crear la página de aterrizaje perfecta para tu negocio.</p>
                 </div>
             </div>
             <div className="row justify-content-around mt-pajarito">
