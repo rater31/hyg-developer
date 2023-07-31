@@ -70,16 +70,16 @@ const Servicios = () => {
                <Link to="/landing-page"><button className='boton'> Más Info</button></Link>
             </div>
             <div className="col-6 mt-5">
-            <DerIz >
-               <img className='landing' src={landing} alt="" srcset="" />
-            </DerIz>
+               <DerIz >
+                  <img className='landing' src={landing} alt="" srcset="" />
+               </DerIz>
 
             </div>
          </div>
          <div className='row  align-items-center'>
             <div className="col-6  mt-5">
                <IzDer>
-               <img src={ecomerce} alt="" className='landing' />
+                  <img src={ecomerce} alt="" className='landing' />
                </IzDer>
             </div>
             <div className='col-4 ms-3 mt-5'>
@@ -102,7 +102,7 @@ const Servicios = () => {
             </div>
             <div className='col-4 ms-3 mt-5'>
                <DerIz>
-               <img src={WebCorporativa} className='landing' alt="" />
+                  <img src={WebCorporativa} className='landing' alt="" />
                </DerIz>
 
             </div>
