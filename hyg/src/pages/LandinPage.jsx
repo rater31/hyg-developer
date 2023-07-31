@@ -38,7 +38,11 @@ const LandinPage = () => {
                     <p>Nuestro talentoso equipo de diseñadores y desarrolladores trabajará contigo para crear la página de aterrizaje perfecta para tu negocio.</p>
                 </div>
             </div>
-            <div className="row justify-content-around mt-pajarito">
+            <div className="row text-center mt-5">
+            <h3>¿Estás listo para revolucionar tu presencia online?</h3>
+            <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de Landing Page.</p>
+        </div>
+            <div className="row justify-content-around mt-5">
                 <div className="card" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">

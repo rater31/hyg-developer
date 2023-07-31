@@ -1,39 +1,12 @@
-.contenedor{
-    background-color: orangered;
+.image{
+    height: 350px;
     border-radius: 15px;
-    color:white;
-}
-.image-contacto{
-    width: 200px;
     
 }
-
-
-
-
-/*========================= prueba========================== */
-
-
-.velozin{
-	-webkit-animation: 2s veloz 1;
-
+.mt-pajarito{
+    margin-top: 200px;
 }
-
-
-@-webkit-keyframes veloz{
-	0%{
-		opacity: 0;
-		-webkit-transform: translateX(-200%)
-		                   skewX(30deg);
-	}
-	60%{
-		opacity: 1;
-		-webkit-transform: translateX(-20%)
-		                   skewX(-30deg);
-	}
-	80%{
-		
-		-webkit-transform: translateX(0%)
-		                   skewX(15deg);
-	}
+.logo-carta{
+    height: 150px;
+    width: 150px;
 }
