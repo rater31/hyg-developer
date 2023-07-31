@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/web-corporativa.css'
+import WebCorp1 from '../assets/WebCorp1.jpg'
+import WebCorp2 from '../assets/WebCorp2.jpg'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
@@ -23,13 +25,13 @@ const WebCorporativa = () => {
                 <p>Nuestros expertos en diseño crean sitios web asombrosos que encajan perfectamente con la identidad visual de tu empresa, capturando la atención de tus clientes.</p>
             </div>
             <div className="col-6 justify-content-center d-flex">
-                <img src="" className='image' alt="" />
+                <img src={WebCorp1} className='image' alt="" />
             </div>
         </div>
 
         <div className="row align-items-center  mt-5">
             <div className="col-6 justify-content-center d-flex">
-                <img src="" className='image' alt="" />
+                <img src={WebCorp2} className='image' alt="" />
             </div>
             <div className="col-6 text-center">
                 <h4>
@@ -38,7 +40,7 @@ const WebCorporativa = () => {
                 <p>Incrementa tus métricas y conecta con tu público objetivo. Nos encargamos de la optimización SEO y la promoción de tus redes sociales.</p>
             </div>
         </div>
-        <div className="row text-center">
+        <div className="row text-center mt-5">
             <h3>¿Estás listo para revolucionar tu presencia online?</h3>
             <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de web corporativa.</p>
         </div>
