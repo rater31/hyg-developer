@@ -46,6 +46,24 @@ const Ecomerce = () => {
            </section>
         );
      }
+     function AbAr({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+
+        return (
+            <div className='seccion' ref={ref}>
+                <div className='span' 
+                    style={{
+                        transform: isInView ? "none" : "translateY(100px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                    }}
+                >
+                    {children}
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div className='text-light container-fluid'>
@@ -91,7 +109,7 @@ const Ecomerce = () => {
                 <h3>¿Estás listo para revolucionar tu presencia online?</h3>
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de E-Comerce.</p>
             </div>
-            <div className="row justify-content-around mt-5">
+            <AbAr><div className="row justify-content-around mt-5">
                 <div className="card" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
@@ -116,7 +134,7 @@ const Ecomerce = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-            </div>
+            </div></AbAr>
         </div>
 
     );

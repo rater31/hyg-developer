@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 import {React, useRef} from 'react';
-=======
-import {React,useRef} from 'react';
->>>>>>> Stashed changes
 import '../css/landing.css'
 import Landing2 from '../assets/Landing2.png'
 import Landing1 from '../assets/Landing1.png'
@@ -10,7 +6,6 @@ import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
-<<<<<<< Updated upstream
 const LandinPage = () => {
     function IzDer({ children }) {
         const ref = useRef(null);
@@ -50,10 +45,6 @@ const LandinPage = () => {
            </section>
         );
      }
-=======
-
-
-const LandinPage = () => {
     // prueba de abajo para arriba
 // esta aca va para las cartas de abajo juancho
     function AbAr({ children }) {
@@ -75,7 +66,6 @@ const LandinPage = () => {
         );
     }
 
->>>>>>> Stashed changes
 
     return (
         <div className='text-light container-fluid'>
