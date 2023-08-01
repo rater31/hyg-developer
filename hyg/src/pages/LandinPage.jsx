@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
 import {React, useRef} from 'react';
-=======
-import {React,useRef} from 'react';
->>>>>>> Stashed changes
 import '../css/landing.css'
 import Landing2 from '../assets/Landing2.png'
 import Landing1 from '../assets/Landing1.png'
@@ -10,15 +6,14 @@ import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
-<<<<<<< Updated upstream
 const LandinPage = () => {
     function IzDer({ children }) {
         const ref = useRef(null);
         const isInView = useInView(ref, { once: true });
   
         return (
-           <section ref={ref}>
-              <span
+           <div className='seccion' ref={ref}>
+              <div className='span'
                  style={{
                     transform: isInView ? "none" : "translateX(-100px)",
                     opacity: isInView ? 1 : 0,
@@ -26,8 +21,8 @@ const LandinPage = () => {
                  }}
               >
                  {children}
-              </span>
-           </section>
+              </div>
+           </div>
         );
      }
   
@@ -50,32 +45,6 @@ const LandinPage = () => {
            </section>
         );
      }
-=======
-
-
-const LandinPage = () => {
-    // prueba de abajo para arriba
-// esta aca va para las cartas de abajo juancho
-    function AbAr({ children }) {
-        const ref = useRef(null);
-        const isInView = useInView(ref, { once: true });
-
-        return (
-            <div className='seccion' ref={ref}>
-                <div className='span' 
-                    style={{
-                        transform: isInView ? "none" : "translateY(100px)",
-                        opacity: isInView ? 1 : 0,
-                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-                    }}
-                >
-                    {children}
-                </div>
-            </div>
-        );
-    }
-
->>>>>>> Stashed changes
 
     return (
         <div className='text-light container-fluid'>
