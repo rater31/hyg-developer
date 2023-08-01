@@ -9,7 +9,7 @@ const Header = () => {
   const time = useTime()
   const rotate = useTransform(
     time,
-    [0, 4000], // For every 4 seconds...
+    [0, 10000], // For every 4 seconds...
     [0, 360], // ...rotate 360deg
     { clamp: false }
   )

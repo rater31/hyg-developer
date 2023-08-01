@@ -28,7 +28,6 @@ const FormasdeTrabajo = () => {
       );
    }
 
-   // peligro prueba experimental viene de derecha a izquierda
 
    function DerIz({ children }) {
       const ref = useRef(null);
@@ -47,6 +46,10 @@ const FormasdeTrabajo = () => {
          </section>
       );
    }
+
+
+
+
    return (
       <div className='container-fluid text-light  mt-5 justify-content-center'>
          <div className="row justify-content-center text-light ">

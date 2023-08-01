@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import {React, useRef} from 'react';
+=======
+import {React,useRef} from 'react';
+>>>>>>> Stashed changes
 import '../css/landing.css'
 import Landing2 from '../assets/Landing2.png'
 import Landing1 from '../assets/Landing1.png'
@@ -6,6 +10,7 @@ import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
+<<<<<<< Updated upstream
 const LandinPage = () => {
     function IzDer({ children }) {
         const ref = useRef(null);
@@ -45,6 +50,32 @@ const LandinPage = () => {
            </section>
         );
      }
+=======
+
+
+const LandinPage = () => {
+    // prueba de abajo para arriba
+// esta aca va para las cartas de abajo juancho
+    function AbAr({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+
+        return (
+            <div className='seccion' ref={ref}>
+                <div className='span' 
+                    style={{
+                        transform: isInView ? "none" : "translateY(100px)",
+                        opacity: isInView ? 1 : 0,
+                        transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                    }}
+                >
+                    {children}
+                </div>
+            </div>
+        );
+    }
+
+>>>>>>> Stashed changes
 
     return (
         <div className='text-light container-fluid'>
@@ -91,7 +122,7 @@ const LandinPage = () => {
                 <h3>¿Estás listo para revolucionar tu presencia online?</h3>
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de Landing Page.</p>
             </div>
-            <div className="row justify-content-around mt-5">
+            <AbAr><div className="row justify-content-around mt-5">
                 <div className="card" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
@@ -123,7 +154,7 @@ const LandinPage = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-            </div>
+            </div></AbAr>
         </div>
     );
 }

@@ -14,3 +14,10 @@
     width: 150px;
     align-self: center;
 }
+  /* experimento */
+
+  .seccion .span{
+    display: block;
+    transform: translateY(-100px);
+    opacity: 0;
+  }
