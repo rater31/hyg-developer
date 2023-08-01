@@ -1,12 +1,52 @@
-import React from 'react';
+import {React, useRef} from 'react';
 import Ecomerce1 from '../assets/Ecomerce1.png'
 import Ecomerce2 from '../assets/Ecomerce2.png'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
 import '../css/landing.css'
+import { motion, useTime, useTransform, useInView } from 'framer-motion'
 
 const Ecomerce = () => {
+    function IzDer({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+  
+        return (
+           <section ref={ref}>
+              <span
+                 style={{
+                    transform: isInView ? "none" : "translateX(-100px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                 }}
+              >
+                 {children}
+              </span>
+           </section>
+        );
+     }
+  
+     // peligro prueba experimental viene de derecha a izquierda
+  
+     function DerIz({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+        return (
+           <section ref={ref}>
+              <span
+                 style={{
+                    transform: isInView ? "none" : "translateX(100px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                 }}
+              >
+                 {children}
+              </span>
+           </section>
+        );
+     }
+
     return (
         <div className='text-light container-fluid'>
             <div className="row mt-3">
@@ -19,32 +59,32 @@ const Ecomerce = () => {
                 </div>
             </div>
             <div className="row align-items-center mt-5">
-                <div className="col-6 text-center">
-                    <h4>
+                <div className="col-5 text-center">
+                    <IzDer><h4>
                         Vende tus productos en línea con estilo y facilidad
-                    </h4>
-                    <div className="row justify-content-center">
+                    </h4></IzDer>
+                    <IzDer><div className="row justify-content-center">
                         <div className="line w-75"></div>
-                    </div>
-                    <p className='mt-3'>Nuestro equipo de diseño y programación garantiza que tu tienda en línea no sólo se vea genial, sino que también sea fácil de usar y mantener. Incrementa tus ventas y expande tu negocio.</p>
+                    </div></IzDer>
+                    <IzDer><p className='mt-3'>Nuestro equipo de diseño y programación garantiza que tu tienda en línea no sólo se vea genial, sino que también sea fácil de usar y mantener. Incrementa tus ventas y expande tu negocio.</p></IzDer>
                 </div>
                 <div className="col-6 justify-content-center d-flex">
-                    <img src={Ecomerce1} className='image' alt="" />
+                    <DerIz><img src={Ecomerce1} className='image' alt="" /></DerIz>
                 </div>
 
             </div>
             <div className="row align-items-center  mt-5">
                 <div className="col-6 justify-content-center d-flex">
-                    <img src={Ecomerce2} className='image' alt="" />
+                    <IzDer><img src={Ecomerce2} className='image' alt="" /></IzDer>
                 </div>
-                <div className="col-6 text-center">
-                    <h4>
+                <div className="col-5 text-center">
+                    <DerIz><h4>
                         Mantén a tus clientes felices y seguros
-                    </h4>
-                    <div className="row justify-content-center">
+                    </h4></DerIz>
+                    <DerIz><div className="row justify-content-center ">
                         <div className="line w-50"></div>
-                    </div>
-                    <p className='mt-3'>La seguridad de tus clientes es nuestra prioridad. Aseguramos que los datos estén protegidos y ofrecemos opciones flexibles de pago para satisfacer todas las necesidades.</p>
+                    </div></DerIz>
+                    <DerIz><p className='mt-3 '>La seguridad de tus clientes es nuestra prioridad. Aseguramos que los datos estén protegidos y ofrecemos opciones flexibles de pago para satisfacer todas las necesidades.</p></DerIz>
                 </div>
             </div>
             <div className="row text-center mt-5">

@@ -1,13 +1,54 @@
-import React from 'react';
+import {React, useRef} from 'react';
 import '../css/web-corporativa.css'
 import WebCorp1 from '../assets/WebCorp1.jpg'
 import WebCorp2 from '../assets/WebCorp2.jpg'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
+import { motion, useTime, useTransform, useInView } from 'framer-motion'
 
 
 const WebCorporativa = () => {
+    function IzDer({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+  
+        return (
+           <section ref={ref}>
+              <span
+                 style={{
+                    transform: isInView ? "none" : "translateX(-100px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                 }}
+              >
+                 {children}
+              </span>
+           </section>
+        );
+     }
+  
+     // peligro prueba experimental viene de derecha a izquierda
+  
+     function DerIz({ children }) {
+        const ref = useRef(null);
+        const isInView = useInView(ref, { once: true });
+        return (
+           <section ref={ref}>
+              <span
+                 style={{
+                    transform: isInView ? "none" : "translateX(100px)",
+                    opacity: isInView ? 1 : 0,
+                    transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+                 }}
+              >
+                 {children}
+              </span>
+           </section>
+        );
+     }
+    
+    
     return (
         <div className='text-light container-fluid'>
             <div className="row mt-3">
@@ -21,32 +62,32 @@ const WebCorporativa = () => {
                 </div>
             </div>
             <div className="row align-items-center mt-5">
-                <div className="col-6 text-center">
-                    <h4>
+                <div className="col-5 text-center">
+                    <IzDer><h4>
                         Diseño Web Único Y Atractivo
-                    </h4>
-                    <div className="row justify-content-center">
+                    </h4></IzDer>
+                    <IzDer><div className="row justify-content-center">
                         <div className="line w-50"></div>
-                    </div>
-                    <p className='mt-3'>Nuestros expertos en diseño crean sitios web asombrosos que encajan perfectamente con la identidad visual de tu empresa, capturando la atención de tus clientes.</p>
+                    </div></IzDer>
+                    <IzDer><p className='mt-3'>Nuestros expertos en diseño crean sitios web asombrosos que encajan perfectamente con la identidad visual de tu empresa, capturando la atención de tus clientes.</p></IzDer>
                 </div>
                 <div className="col-6 justify-content-center d-flex">
-                    <img src={WebCorp1} className='image' alt="" />
+                    <DerIz><img src={WebCorp1} className='image' alt="" /></DerIz>
                 </div>
             </div>
 
             <div className="row align-items-center  mt-5">
                 <div className="col-6 justify-content-center d-flex">
-                    <img src={WebCorp2} className='image' alt="" />
+                    <IzDer><img src={WebCorp2} className='image' alt="" /></IzDer>
                 </div>
-                <div className="col-6 text-center">
-                    <h4>
+                <div className="col-5 text-center">
+                    <DerIz><h4>
                         Optimización Y Promoción Online
-                    </h4>
-                    <div className="row justify-content-center">
+                    </h4></DerIz>
+                    <DerIz><div className="row justify-content-center">
                         <div className="line w-50"></div>
-                    </div>
-                    <p className='mt-3'>Incrementa tus métricas y conecta con tu público objetivo. Nos encargamos de la optimización SEO y la promoción de tus redes sociales.</p>
+                    </div></DerIz>
+                    <DerIz><p className='mt-3'>Incrementa tus métricas y conecta con tu público objetivo. Nos encargamos de la optimización SEO y la promoción de tus redes sociales.</p></DerIz>
                 </div>
             </div>
             <div className="row text-center mt-5">
