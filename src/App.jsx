@@ -15,18 +15,18 @@ function App() {
     <Header/>
     <Routes> 
   
-    <Route path="/" element={<Somos />}/>
+    <Route path="#/" element={<Somos />}/>
 
 
-    <Route path="/hyg-developer/'pages/formas-de-trabajo" element={<FormasdeTrabajo />}/>
+    <Route path="#/'pages/formas-de-trabajo" element={<FormasdeTrabajo />}/>
 
-    <Route path="/landing-page" element={<LandinPage />}/>
+    <Route path="#/landing-page" element={<LandinPage />}/>
 
-    <Route path="/e-comerce" element={<Ecomerce />}/>
+    <Route path="#/e-comerce" element={<Ecomerce />}/>
 
-    <Route path="/web-corporativa" element={<WebCorporativa />}/>
+    <Route path="#/web-corporativa" element={<WebCorporativa />}/>
 
-    <Route path="/contacto" element={<Contacto/>}> 
+    <Route path="#/contacto" element={<Contacto/>}> 
 
     
 
