@@ -16,6 +16,8 @@ function App() {
     <Routes> 
   
     <Route path="/hyg-developer" element={<Somos />}/>
+    <Route path="/" element={<Somos />}/>
+
 
     <Route path="/hyg-developer/formas-de-trabajo" element={<FormasdeTrabajo />}/>
 
