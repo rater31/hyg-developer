@@ -77,7 +77,7 @@ const Ecomerce = () => {
                 </div>
             </div>
             <div className="row align-items-center mt-5">
-                <div className="col-5 text-center">
+                <div className="col-12 col-md-5 text-center">
                     <IzDer><h4>
                         Vende tus productos en línea con estilo y facilidad
                     </h4></IzDer>
@@ -87,15 +87,15 @@ const Ecomerce = () => {
                     <IzDer><p className='mt-3'>Nuestro equipo de diseño y programación garantiza que tu tienda en línea no sólo se vea genial, sino que también sea fácil de usar y mantener. Incrementa tus ventas y expande tu negocio.</p></IzDer>
                 </div>
                 <div className="col-6 justify-content-center d-flex">
-                    <DerIz><img src={Ecomerce1} className='image' alt="" /></DerIz>
+                    <DerIz><img src={Ecomerce1} className='image d-none d-md-block' alt="" /></DerIz>
                 </div>
 
             </div>
             <div className="row align-items-center  mt-5">
                 <div className="col-6 justify-content-center d-flex">
-                    <IzDer><img src={Ecomerce2} className='image' alt="" /></IzDer>
+                    <IzDer><img src={Ecomerce2} className='image d-none d-md-block' alt="" /></IzDer>
                 </div>
-                <div className="col-5 text-center">
+                <div className="col-12 col-md-5 text-center">
                     <DerIz><h4>
                         Mantén a tus clientes felices y seguros
                     </h4></DerIz>
@@ -110,7 +110,7 @@ const Ecomerce = () => {
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de E-Comerce.</p>
             </div>
             <AbAr><div className="row justify-content-around mt-5">
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -118,7 +118,7 @@ const Ecomerce = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={standard} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -126,7 +126,7 @@ const Ecomerce = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={premium} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>

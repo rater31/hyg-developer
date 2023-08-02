@@ -80,7 +80,7 @@ const WebCorporativa = () => {
                 </div>
             </div>
             <div className="row align-items-center mt-5">
-                <div className="col-5 text-center">
+                <div className="col-12col-md-5 text-center">
                     <IzDer><h4>
                         Diseño Web Único Y Atractivo
                     </h4></IzDer>
@@ -90,15 +90,15 @@ const WebCorporativa = () => {
                     <IzDer><p className='mt-3'>Nuestros expertos en diseño crean sitios web asombrosos que encajan perfectamente con la identidad visual de tu empresa, capturando la atención de tus clientes.</p></IzDer>
                 </div>
                 <div className="col-6 justify-content-center d-flex">
-                    <DerIz><img src={WebCorp1} className='image' alt="" /></DerIz>
+                    <DerIz><img src={WebCorp1} className='image d-none d-md-block' alt="" /></DerIz>
                 </div>
             </div>
 
             <div className="row align-items-center  mt-5">
                 <div className="col-6 justify-content-center d-flex">
-                    <IzDer><img src={WebCorp2} className='image' alt="" /></IzDer>
+                    <IzDer><img src={WebCorp2} className='image d-none d-md-block' alt="" /></IzDer>
                 </div>
-                <div className="col-5 text-center">
+                <div className="col-12 col-md-5 text-center">
                     <DerIz><h4>
                         Optimización Y Promoción Online
                     </h4></DerIz>
@@ -113,7 +113,7 @@ const WebCorporativa = () => {
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de web corporativa.</p>
             </div>
             <AbAr><div className="row justify-content-around mt-pajarito">
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -121,7 +121,7 @@ const WebCorporativa = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={standard} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -129,7 +129,7 @@ const WebCorporativa = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={premium} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>

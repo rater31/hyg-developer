@@ -79,7 +79,7 @@ const LandinPage = () => {
                 </div>
             </div>
             <div className="row align-items-center mt-5">
-                <div className="col-5 text-center">
+                <div className=" col-12 col-md-5 text-center">
                     <IzDer><h4>
                         Diseño Personalizado y Funcionalidad Única
                     </h4></IzDer>
@@ -89,16 +89,16 @@ const LandinPage = () => {
 
                     <IzDer> <p className='mt-3'> Ofrecemos diseños personalizados y funciones únicas para garantizar que tu página de aterrizaje destaque en el mercado.</p></IzDer> 
                 </div>
-                <div className="col-6 justify-content-center d-flex">
-                    <DerIz><img src={Landing2} className='image' alt="" /></DerIz>
+                <div className="col-12 col-md-6 justify-content-center d-flex">
+                    <DerIz><img src={Landing2} className='image d-none d-md-block' alt="" /></DerIz>
                 </div>
 
             </div>
             <div className="row align-items-center  mt-5">
-                <div className="col-6 justify-content-center d-flex">
-                    <IzDer> <img src={Landing1} className='image' alt="" /></IzDer> 
+                <div className=" col-11 col-md-6 justify-content-center d-flex">
+                    <IzDer> <img src={Landing1} className='image d-none d-md-block' alt="" /></IzDer> 
                 </div>
-                <div className="col-5 text-center">
+                <div className=" col-12 col-md-5 text-center">
                     <DerIz> <h4>
                         Diseño Personalizado y Funcionalidad Única
                     </h4></DerIz>
@@ -113,7 +113,7 @@ const LandinPage = () => {
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de Landing Page.</p>
             </div>
             <AbAr><div className="row justify-content-around mt-5">
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -121,7 +121,7 @@ const LandinPage = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={standard} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Servicio Standard</h5>
@@ -136,7 +136,7 @@ const LandinPage = () => {
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card" style={{ width: '18rem' }}>
+                <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={premium} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>

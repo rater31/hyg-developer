@@ -60,8 +60,8 @@ const Servicios = () => {
          <div className="row justify-content-center ">
             <div className="line2"></div>
          </div>
-         <div className="row  align-items-center">
-            <div className="col-5 ms-3  mt-5">
+         <div className="row align-items-center">
+            <div className="col-11 col-md-5 ms-3  mt-5">
                <h3>Landing page</h3>
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
@@ -69,9 +69,9 @@ const Servicios = () => {
                <IzDer><p className='mt-3'>Una landing page es una página web independiente que está diseñada para una campaña de marketing o publicidad específica. Está diseñada para persuadir a los visitantes a realizar una acción específica, como registrarse para una newsletter, realizar una compra o programar una cita.</p></IzDer>
                <Link to="#/landing-page"><button className='boton'> Más Info</button></Link>
             </div>
-            <div className="col-6 mt-5">
+            <div className="col-12 col-md-6 mt-5">
                <DerIz >
-                  <img className='landing' src={landing} alt="" srcset="" />
+                  <img className='landing d-none d-md-block' src={landing} alt="" srcset="" />
                </DerIz>
 
             </div>
@@ -79,10 +79,10 @@ const Servicios = () => {
          <div className='row  align-items-center'>
             <div className="col-6  mt-5">
                <IzDer>
-                  <img src={ecomerce} alt="" className='landing' />
+                  <img src={ecomerce} alt="" className='landing d-none d-md-block' />
                </IzDer>
             </div>
-            <div className='col-4 ms-3 mt-5'>
+            <div className=' col-11 col-md-4 ms-3 mt-5'>
                <h3>E-Comerce</h3>
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
@@ -91,8 +91,8 @@ const Servicios = () => {
                <Link to="#/e-comerce"><button className='boton'> Más Info</button></Link>
             </div>
          </div>
-         <div className='row align-items-center'>
-            <div className='col-6 ms-3 mt-5'>
+         <div className='row  align-items-center'>
+            <div className=' col-11 col-md-6 ms-3 mt-5'>
                <h3>Web Corporativa</h3>
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
@@ -100,9 +100,9 @@ const Servicios = () => {
                   <Link to="#/web-corporativa"><button className='boton'> Más Info</button></Link>
                </div>
             </div>
-            <div className='col-4 ms-3 mt-5'>
+            <div className=' col-12 col-md-4 ms-3 mt-5'>
                <DerIz>
-                  <img src={WebCorporativa} className='landing' alt="" />
+                  <img src={WebCorporativa} className='landing d-none d-md-block' alt="" />
                </DerIz>
 
             </div>
