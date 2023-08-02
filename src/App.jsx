@@ -18,7 +18,7 @@ function App() {
     <Route path="/" element={<Somos />}/>
 
 
-    <Route path="/hyg-developer/formas-de-trabajo" element={<FormasdeTrabajo />}/>
+    <Route path="/hyg-developer/'pages/formas-de-trabajo" element={<FormasdeTrabajo />}/>
 
     <Route path="/landing-page" element={<LandinPage />}/>
 
