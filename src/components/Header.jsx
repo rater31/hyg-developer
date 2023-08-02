@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import '../css/header.css'
 import { Link} from 'react-router-dom'
@@ -34,22 +33,22 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="/"  className="button2">inicio</Link> 
+                <Link to="/hyg-developer/"  className="button2">inicio</Link> 
               </li>
               <li className="nav-item">
-                <Link to="/formas-de-trabajo" className="button2 "> Formas de trabajo </Link>
+                <Link to="/hyg-developer/formas-de-trabajo" className="button2 "> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
-                <Link to="/landing-page"  className="button2"> Landing page</Link> 
+                <Link to="/hyg-developer/landing-page"  className="button2"> Landing page</Link> 
               </li>
               <li className="nav-item ">
-                <Link to="/e-comerce" id='e-commerce' className="button2"> e-commerce </Link>
+                <Link to="/hyg-developer/e-comerce" id='e-commerce' className="button2"> e-commerce </Link>
               </li>
               <li className="nav-item">
-                <Link to="/web-corporativa" className="button2"> Web corporativa </Link>
+                <Link to="/hyg-developer/web-corporativa" className="button2"> Web corporativa </Link>
               </li>
               <li className="nav-item">
-                <Link to="/contacto" className="button2"> Contacto </Link> 
+                <Link to="/hyg-developer/contacto" className="button2"> Contacto </Link> 
               </li>
             </ul>
           </div>

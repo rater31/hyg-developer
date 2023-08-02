@@ -14,13 +14,21 @@ function App() {
     <>
     <Header/>
     <Routes> 
-    <Route path="/" element={<Somos />}/>
+  
     <Route path="/hyg-developer" element={<Somos />}/>
-    <Route path="/formas-de-trabajo" element={<FormasdeTrabajo />}/>
-    <Route path="/landing-page" element={<LandinPage />}/>
-    <Route path="/e-comerce" element={<Ecomerce />}/>
-    <Route path="/web-corporativa" element={<WebCorporativa />}/>
+
+    <Route path="/hyg-developer/formas-de-trabajo" element={<FormasdeTrabajo />}/>
+
+    <Route path="/hyg-developer/landing-page" element={<LandinPage />}/>
+
+    <Route path="/hyg-developer/e-comerce" element={<Ecomerce />}/>
+
+    <Route path="/hyg-developer/web-corporativa" element={<WebCorporativa />}/>
+
     <Route path="/contacto" element={<Contacto/>}> 
+
+    
+
     </Route>
     </Routes>
     <Footer/>
