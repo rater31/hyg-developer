@@ -1,7 +1,7 @@
 import {React, useRef} from 'react';
 import '../css/landing.css'
-import Landing2 from '../assets/Landing2.png'
-import Landing1 from '../assets/Landing1.png'
+import Landing2 from '../assets/landing2.png'
+import Landing1 from '../assets/landing1.png'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
