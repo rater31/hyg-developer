@@ -80,7 +80,7 @@ const WebCorporativa = () => {
                 </div>
             </div>
             <div className="row align-items-center mt-5">
-                <div className="col-12col-md-5 text-center">
+                <div className="col-12 col-md-5 text-center">
                     <IzDer><h4>
                         Diseño Web Único Y Atractivo
                     </h4></IzDer>
