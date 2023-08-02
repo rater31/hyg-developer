@@ -39,7 +39,7 @@ const Header = () => {
                 <Link to="/formas-de-trabajo" className="button2 "> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
-                <Link to="/hyg-developer/landing-page"  className="button2"> Landing page</Link> 
+                <Link to="/landing-page"  className="button2"> Landing page</Link> 
               </li>
               <li className="nav-item ">
                 <Link to="/hyg-developer/e-comerce" id='e-commerce' className="button2"> e-commerce </Link>
