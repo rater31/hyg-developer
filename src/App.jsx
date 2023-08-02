@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Somos from './components/Somos'
 import Footer from './components/Footer'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import Ecomerce from './pages/Ecomerce'
 import FormasdeTrabajo from './pages/FormasdeTrabajo'
 import LandinPage from './pages/LandinPage'
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Header/>
-    <Routes> 
+    <HashRouter> 
   
     <Route path="/" element={<Somos />}/>
 
@@ -31,7 +31,7 @@ function App() {
     
 
     </Route>
-    </Routes>
+    </HashRouter>
     <Footer/>
     </>
   )
