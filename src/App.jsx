@@ -25,7 +25,7 @@ function App() {
 
     <Route path="/hyg-developer/web-corporativa" element={<WebCorporativa />}/>
 
-    <Route path="/contacto" element={<Contacto/>}> 
+    <Route path="/hyg-developer/contacto" element={<Contacto/>}> 
 
     
 
