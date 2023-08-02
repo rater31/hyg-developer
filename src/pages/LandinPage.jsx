@@ -5,7 +5,7 @@ import Landing1 from '../assets/Landing1.png'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
-import { motion, useTime, useTransform, useInView } from 'framer-motion'
+import {useInView } from 'framer-motion'
 const LandinPage = () => {
     function IzDer({ children }) {
         const ref = useRef(null);

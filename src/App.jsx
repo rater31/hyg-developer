@@ -14,7 +14,7 @@ function App() {
     <>
     <Header/>
     <Routes> 
-    <Route path="/" element={<Somos />}/>
+    <Route path="/hyg-developer" element={<Somos />}/>
     <Route path="/formas-de-trabajo" element={<FormasdeTrabajo />}/>
     <Route path="/landing-page" element={<LandinPage />}/>
     <Route path="/e-comerce" element={<Ecomerce />}/>
