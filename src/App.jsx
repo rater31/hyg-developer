@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Header from './components/Header'
 import Somos from './components/Somos'
 import Footer from './components/Footer'
-import { Routes, Route, HashRouter } from 'react-router-dom'
+import { Routes, Route,} from 'react-router-dom'
 import Ecomerce from './pages/Ecomerce'
 import FormasdeTrabajo from './pages/FormasdeTrabajo'
 import LandinPage from './pages/LandinPage'
@@ -13,10 +13,11 @@ function App() {
   return (
     <>
     <Header/>
-    <HashRouter> 
-  
-    <Route path="/" element={<Somos />}/>
 
+  
+    <Routes> 
+    
+    <Route path="/" element={<Somos />}/>
 
     <Route path="/formas-de-trabajo" element={<FormasdeTrabajo />}/>
 
@@ -26,12 +27,13 @@ function App() {
 
     <Route path="/web-corporativa" element={<WebCorporativa />}/>
 
-    <Route path="/contacto" element={<Contacto/>}> 
+    <Route path="/contacto" element={<Contacto/>}/> 
 
     
+    
+    
+    </Routes>
 
-    </Route>
-    </HashRouter>
     <Footer/>
     </>
   )
