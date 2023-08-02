@@ -36,7 +36,7 @@ const Header = () => {
                 <Link to="/"  className="button2">inicio</Link> 
               </li>
               <li className="nav-item">
-                <Link to="/formas-de-trabajo" className="button2 "> Formas de trabajo </Link>
+                <Link to="/hyg-developer/'pages/formas-de-trabajo" className="button2 "> Formas de trabajo </Link>
               </li>
               <li className="nav-item">
                 <Link to="/hyg-developer/landing-page"  className="button2"> Landing page</Link> 
