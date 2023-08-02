@@ -33,7 +33,7 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link to="#/"  className="button2">inicio</Link> 
+                <Link to="/"  className="button2">inicio</Link> 
               </li>
               <li className="nav-item">
                 <Link to="#/formas-de-trabajo" className="button2 "> Formas de trabajo </Link>

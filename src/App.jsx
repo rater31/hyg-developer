@@ -15,10 +15,10 @@ function App() {
     <Header/>
     <Routes> 
   
-    <Route path="#/" element={<Somos />}/>
+    <Route path="/" element={<Somos />}/>
 
 
-    <Route path="#/'pages/formas-de-trabajo" element={<FormasdeTrabajo />}/>
+    <Route path="#/formas-de-trabajo" element={<FormasdeTrabajo />}/>
 
     <Route path="#/landing-page" element={<LandinPage />}/>
 
