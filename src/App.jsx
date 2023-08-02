@@ -18,15 +18,15 @@ function App() {
     <Route path="/" element={<Somos />}/>
 
 
-    <Route path="/#/formas-de-trabajo" element={<FormasdeTrabajo />}/>
+    <Route path="/formas-de-trabajo" element={<FormasdeTrabajo />}/>
 
-    <Route path="/#/landing-page" element={<LandinPage />}/>
+    <Route path="/landing-page" element={<LandinPage />}/>
 
-    <Route path="/#/e-comerce" element={<Ecomerce />}/>
+    <Route path="/e-comerce" element={<Ecomerce />}/>
 
-    <Route path="/#/web-corporativa" element={<WebCorporativa />}/>
+    <Route path="/web-corporativa" element={<WebCorporativa />}/>
 
-    <Route path="/#/contacto" element={<Contacto/>}> 
+    <Route path="/contacto" element={<Contacto/>}> 
 
     
 
