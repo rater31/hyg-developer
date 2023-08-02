@@ -1,6 +1,7 @@
 {
   "name": "hyg",
   "private": true,
+  "homepage": "https://rater31.github.io/hyg-developer/build",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
