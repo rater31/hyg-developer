@@ -67,7 +67,7 @@ const Servicios = () => {
                   <div className="line w-25"></div>
                </div>
                <IzDer><p className='mt-3'>Una landing page es una página web independiente que está diseñada para una campaña de marketing o publicidad específica. Está diseñada para persuadir a los visitantes a realizar una acción específica, como registrarse para una newsletter, realizar una compra o programar una cita.</p></IzDer>
-               <Link to="/hyg-developer/landing-page"><button className='boton'> Más Info</button></Link>
+               <Link to="/landing-page"><button className='boton'> Más Info</button></Link>
             </div>
             <div className="col-6 mt-5">
                <DerIz >
@@ -88,7 +88,7 @@ const Servicios = () => {
                   <div className="line w-25"></div>
                </div>
                <DerIz><p className='mt-3'>Una tienda de comercio electrónico es un sitio web que permite a los clientes comprar bienes y servicios en línea. Las tiendas de comercio electrónico suelen utilizar plataformas de comercio electrónico para gestionar sus pedidos, inventario y pagos.</p></DerIz>
-               <Link to="/hyg-developer/e-comerce"><button className='boton'> Más Info</button></Link>
+               <Link to="/e-comerce"><button className='boton'> Más Info</button></Link>
             </div>
          </div>
          <div className='row align-items-center'>
@@ -97,7 +97,7 @@ const Servicios = () => {
                <div className="row justify-content-center">
                   <div className="line w-25"></div>
                   <IzDer><p className='mt-3'>Una web corporativa es un sitio web que representa a una empresa o organización. Su propósito es dar información sobre la empresa, sus productos o servicios  y sus empleados. También puede utilizarse para comercializar los mismos, generar un Cliente potencial y aumentar la visibilidad de la marca.</p></IzDer>
-                  <Link to="/hyg-developer/web-corporativa"><button className='boton'> Más Info</button></Link>
+                  <Link to="/web-corporativa"><button className='boton'> Más Info</button></Link>
                </div>
             </div>
             <div className='col-4 ms-3 mt-5'>
