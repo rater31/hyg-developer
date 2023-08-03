@@ -55,7 +55,7 @@ const Header = () => {
             </div>
 
           </nav> */}
-          <nav class="navbar navbar-dark fixed-top ">
+          <nav class="navbar navbar-dark ">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
