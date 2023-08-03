@@ -17,7 +17,7 @@ const Contacto = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_azp5b3l', 'template_j7mav5a', form.current, 'tvgcCgdF9Aj2GPnr1')
       .then((result) => {
         console.log(result.text);
       }, (error) => {
