@@ -6,6 +6,7 @@ import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
 import {useInView } from 'framer-motion'
+import { Link } from 'react-router-dom';
 const LandinPage = () => {
     function IzDer({ children }) {
         const ref = useRef(null);
@@ -116,32 +117,70 @@ const LandinPage = () => {
                 <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={basic} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <h5 className="card-title">Servicio Basico</h5>
+                        <ul className="card-text">El servicio cuenta con:
+                        <li> Sitio creado en Vanilla(HTML, CSS, JS) </li>
+                        <li> Seccion de precargada </li>
+                        <li> Hasta 5 fotos precargadas </li>
+                        <li> Carrusel/ Slider hasta 3 fotos </li>
+                        <li> Optimizacion para todos los dispositivos </li>
+                        <li> Formulario de Contacto </li>
+                        <li> Redireccionamiento a redes sociales</li>
+                        <li> Boton WhatsApp con mensaje a tu gusto</li>
+                        <li> sin necesidad de mantenimiento</li>
+                        
+                        </ul>
+                        <Link to="/contacto"><a href="" className="btn btn-primary">Mas Info</a></Link>
                     </div>
                 </div>
                 <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={standard} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Servicio Standard</h5>
-                        <ul className="card-text">
-                            <li>+ Servicio Basico</li>
-                            <li>mundo</li>
-                            <li>mundo</li>
-                            <li>mundo</li>
-                            <li>mundo</li>
+                        <ul className="card-text"> El servicio cuenta con:
+                        <li> Sitio creado en Vanilla(HTML, CSS, JS) </li>
+                        <li> Seccion de precargada </li>
+                        <li> Hasta 10 fotos precargadas </li>
+                        <li> Carrusel/ Slider hasta 5 fotos </li>
+                        <li> Optimizacion para todos los dispositivos </li>
+                        <li> Formulario de Contacto </li>
+                        <li> Redireccionamiento a redes sociales </li>
+                        <li> Boton WhatsApp con mensaje a tu gusto </li>
+                        <li> Dominio propio por un año </li>
+                        <li> Servicio de Hosting por un año </li>
+                        <li> E-mail personalizado </li>
+                        <li> Optimizado con Google Adwords </li>
+                        <li> Certificado SSL </li>
+                        <li> sin necesidad de mantenimiento </li>
 
                         </ul>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-primary">Mas Info</a></Link>
                     </div>
                 </div>
                 <div className="card mb-5" style={{ width: '18rem' }}>
                     <img src={premium} className="card-img-top logo-carta" alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <h5 className="card-title">Servicio Premium</h5>
+                        <ul className="card-text">El servicio cuenta con:
+                        <li> Sitio creado en Vanilla(HTML, CSS, JS) </li>
+                        <li> Seccion de precargada </li>
+                        <li> Hasta 15 fotos precargadas </li>
+                        <li> Carrusel/ Slider hasta 10 fotos </li>
+                        <li> Optimizacion para todos los dispositivos </li>
+                        <li> Formulario de Contacto </li>
+                        <li> Videos Multimedia </li>
+                        <li> Ubicacion en Google Maps </li>
+                        <li> Soporte Tecnico por 2 años </li>
+                        <li> Redireccionamiento a redes sociales </li>
+                        <li> Boton WhatsApp con mensaje a tu gusto </li>
+                        <li> Dominio propio por 2 años </li>
+                        <li> Servicio de Hosting por 2 años </li>
+                        <li> Hasta 3 E-mails personalizados </li>
+                        <li> Optimizado con Google Adwords </li>
+                        <li> Certificado SSL</li>
+                        <li> sin necesidad de mantenimiento</li>
+                        </ul>
+                        <Link to="/contacto"><a href="#" className="btn btn-primary">Mas Info</a></Link>
                     </div>
                 </div>
             </div></AbAr>
