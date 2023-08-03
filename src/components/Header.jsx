@@ -68,29 +68,38 @@ const Header = () => {
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <Link to="/" className="button2 ">Inicio</Link>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
+                      <Link to="/formas-de-trabajo" className="button2">Formas de Trabajo</Link>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                      <a class="nav-link dropdown-toggle button2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Servicios
                       </a>
                       <ul class="dropdown-menu dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li>
-                          <hr class="dropdown-divider"/>
-                        </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <Link to="/landing-page" className="button2 " >Landing Page</Link>
+                          </li>
+                          <li>
+                              <hr class="dropdown-divider"></hr>
+                          </li>
+                          <li>
+                          <Link to="/e-comerce" id='e-commerce' className="button2">E-comerce</Link>
+                          </li>
+                          <li>
+                              <hr class="dropdown-divider"></hr>
+                          </li>
+                          <li>
+                            <Link to="/web-corporativa" className="button2" >Web Corporativa</Link>
+                          </li>
                       </ul>
                     </li>
+                    <li class="nav-item">
+                      <Link to="/contacto" className="button2">Contacto</Link>
+                    </li>
                   </ul>
-                  <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                      <button class="btn btn-success" type="submit">Search</button>
-                  </form>
+                
                 </div>
               </div>
             </div>
