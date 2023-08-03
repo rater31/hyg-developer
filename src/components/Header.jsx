@@ -17,7 +17,7 @@ const Header = () => {
     <div className="fondoheader container-fluid">
       <div className=" row d-grid text-center justify-content-center  ">
         <motion.div style={{ rotate }} className="col">
-          <img src={logo} alt="" srcset="" />
+          <Link to="/"><img src={logo} alt="" srcset="" /></Link>
         </motion.div>
 
             <div className="col">
@@ -68,22 +68,22 @@ const Header = () => {
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                      <Link to="/" className="button2 ">Inicio</Link>
+                      <Link to="/" className="button2 mt-2 mt-md-0 ">Inicio</Link>
                     </li>
                     <li class="nav-item">
-                      <Link to="/formas-de-trabajo" className="button2">Formas de Trabajo</Link>
+                      <Link to="/formas-de-trabajo" className="button2 mt-2 mt-md-0">Formas de Trabajo</Link>
                     </li>
                     <li>
-                      <Link to="/landing-page" className="button2 " >Landing Page</Link>
+                      <Link to="/landing-page" className="button2 mt-2 mt-md-0 " >Landing Page</Link>
                     </li>
                     <li>
-                      <Link to="/e-comerce" id='e-commerce' className="button2">E-comerce</Link>
+                      <Link to="/e-comerce" id='e-commerce' className="button2 mt-2 mt-md-0">E-comerce</Link>
                     </li>
                     <li>
-                      <Link to="/web-corporativa" className="button2" >Web Corporativa</Link>
+                      <Link to="/web-corporativa" className="button2 mt-2 mt-md-0" >Web Corporativa</Link>
                     </li>
                     <li class="nav-item">
-                      <Link to="/contacto" className="button2">Contacto</Link>
+                      <Link to="/contacto" className="button2 mt-2 mt-md-0">Contacto</Link>
                     </li>
                   </ul>
                 
