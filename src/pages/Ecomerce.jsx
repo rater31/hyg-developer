@@ -69,7 +69,7 @@ const Ecomerce = () => {
         <div className='text-light container-fluid'>
             <div className="row mt-3">
                 <div className="col text-center">
-                    <h1 className="">E-comerce</h1>
+                    <h2 className="">E-comerce</h2>
                     <div className="row justify-content-center">
                         <div className="line w-25"></div>
                     </div>

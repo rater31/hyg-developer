@@ -71,7 +71,7 @@ const WebCorporativa = () => {
         <div className='text-light container-fluid'>
             <div className="row mt-3">
                 <div className="col text-center">
-                    <h1 className="">Web Corporativa</h1>
+                    <h2 className="">Web Corporativa</h2>
                     <div className="row justify-content-center">
                         <div className="line w-25"></div>
                     </div>

@@ -53,7 +53,7 @@ const FormasdeTrabajo = () => {
    return (
       <div className='container-fluid text-light  mt-5 justify-content-center'>
          <div className="row justify-content-center text-light ">
-            <h3 className='text-center'>Formas de trabajo</h3>
+            <h2 className='text-center'>Formas de trabajo</h2>
             <div className="line2"></div>
          </div>
          <div className="row text-center align-items-center">

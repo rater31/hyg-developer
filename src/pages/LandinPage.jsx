@@ -72,7 +72,7 @@ const LandinPage = () => {
         <div className='text-light container-fluid'>
             <div className="row mt-3">
                 <div className="col text-center">
-                    <h1 className="">Landing Page</h1>
+                    <h2 className="">Landing Page</h2>
                     <div className="row justify-content-center">
                         <div className="line w-25"></div>
                     </div>

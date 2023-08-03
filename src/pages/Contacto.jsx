@@ -17,10 +17,23 @@ const Contacto = () => {
     <div className='text-light container-fluid fondo-pc'>
       <div className="row mt-3 fondo-niga">
         <div className="col text-center">
-          <h3 className=''>Nos encantaría conocerte mejor</h3>
-          <h1 className="">Contáctanos</h1>
-          <p className='mt-5 contact'>Estamos encantados de escuchar de usted. Si tiene alguna pregunta o inquietud, no dude en contactarnos. Estamos aquí para ayudarlo a lograr sus objetivos y cumplir sus ideas.</p>
+          <h2 className="">Contáctanos</h2>
+          <h3 className=''>Estaríamos encantados de escuchar de usted.</h3>
+          <p className='mt-5 contact'> Si tiene alguna pregunta o inquietud, no dude en contactarnos. Estamos aquí para ayudarlo a lograr sus objetivos y cumplir sus ideas.</p>
           <div className="row mt-5 text-start">
+            
+            {/* <div className="col d-flex justify-content-center">
+              <div className="line3"></div>
+            </div> */}
+            <div className="col-5 text-center">
+              <h4>Seguinos en nuestras redes</h4>
+              <a href="https://www.instagram.com/hgdevelopers/" target='-blanc'><img src={logoInstagram} alt="" srcset="" className='logo-redes' /></a>
+              <br></br>
+              <a href="#"><img src={logoLinkedin} alt="" srcset="" className='logo-redes' /></a>
+              <br></br>
+              <a href="#"><img src={logoface} alt="" srcset="" className='logo-redes' /></a>
+
+            </div>
             <div className="col-6 ">
               <h3 className='text-center mediante'>Tambien puedes contarcarnos mediante:</h3>
               <div className="row d-grid justify-content-center">
@@ -36,18 +49,6 @@ const Contacto = () => {
                 </div>
 
               </div>
-            </div>
-            {/* <div className="col d-flex justify-content-center">
-              <div className="line3"></div>
-            </div> */}
-            <div className="col-5 text-center">
-              <h4>Seguinos en nuestras redes</h4>
-              <a href="https://www.instagram.com/hgdevelopers/" target='-blanc'><img src={logoInstagram} alt="" srcset="" className='logo-redes' /></a>
-              <br></br>
-              <a href="#"><img src={logoLinkedin} alt="" srcset="" className='logo-redes' /></a>
-              <br></br>
-              <a href="#"><img src={logoface} alt="" srcset="" className='logo-redes' /></a>
-
             </div>
           </div>
 
