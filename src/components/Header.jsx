@@ -25,7 +25,7 @@ const Header = () => {
                 <p>Developers</p>
             </div>
             <div className="col d-flex  justify-content-center">
-          {/* <nav className="navbar navbar-expand-md ">
+          {/* <nav className="navbar   ">
             <div className="container-fluid">
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
@@ -55,7 +55,7 @@ const Header = () => {
             </div>
 
           </nav> */}
-          <nav class="navbar navbar-dark ">
+          <nav class="navbar navbar-dark navbar-expand-md">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
