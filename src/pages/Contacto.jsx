@@ -6,12 +6,24 @@ import logoWp from '../assets/whatsapp.png'
 import logoGmail from '../assets/gmail.png'
 import logoTel from '../assets/mensaje-de-telefono.png'
 import logoface from '../assets/facebook.png'
+import emailjs from '@emailjs/browser'
 
 
 import '../css/contacto.css'
 
 const Contacto = () => {
+  const form = useRef();
 
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <div className='text-light container-fluid fondo-pc'>
@@ -22,9 +34,7 @@ const Contacto = () => {
           <p className='mt-5 contact'> Si tiene alguna pregunta o inquietud, no dude en contactarnos. Estamos aquí para ayudarlo a lograr sus objetivos y cumplir sus ideas.</p>
           <div className="row mt-5 text-start">
             
-            {/* <div className="col d-flex justify-content-center">
-              <div className="line3"></div>
-            </div> */}
+          
             <div className="col-5 text-center">
               <h4>Seguinos en nuestras redes</h4>
               <a href="https://www.instagram.com/hgdevelopers/" target='-blanc'><img src={logoInstagram} alt="" srcset="" className='logo-redes' /></a>
@@ -54,24 +64,18 @@ const Contacto = () => {
 
         </div>
         <div className="row mt-5 ">
-        <div className="col ">
+        {/* <div className="col ">
           <form className="row  d-grid g-3 needs-validation  justify-content-center" noValidate>
             <div className="col-12 mt-4">
-              {/* <label htmlFor="validationCustom01" className="form-label">Nombre</label> */}
+            
               <input type="text" className=" transparente " id="validationCustom01" placeholder="Nombre y Apellido" required />
               <div className="valid-feedback">
                 Looks good!
               </div>
             </div>
-            {/* <div className="col-7 mt-4">
-              <label htmlFor="validationCustom02" className="form-label">Apellido</label>
-              <input type="text" className="" id="validationCustom02" placeholder="Apellido" required />
-              <div className="valid-feedback">
-                Looks good!
-              </div>
-            </div> */}
+        
             <div className="col-12 mt-4">
-              {/* <label htmlFor="validationCustomUsername" className="form-label">Usuario de Instagram</label> */}
+              
               <div className="input-group has-validation">
                 <input type="text" className="transparente" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder='Tu.instagram' required />
                 <div className="invalid-feedback">
@@ -80,7 +84,7 @@ const Contacto = () => {
               </div>
             </div>
             <div className="col-12 mt-4">
-              {/* <label htmlFor="validationCustom03" className="form-label">Email de Contacto</label> */}
+
               <input type="email" className=" transparente" id="validationCustom03" placeholder="Email" required />
               <div className="invalid-feedback">
                 Please provide a valid city.
@@ -88,20 +92,31 @@ const Contacto = () => {
             </div>
 
             <div className="col-12 mt-4">
-              {/* <label htmlFor="validationCustom05" className="form-label">Número de Telefono o Celular</label> */}
+              
               <input type="tel" className=" transparente" id="validationCustom05" placeholder='Tu Número de Teléfono o Celular' required />
               <div className="invalid-feedback">
                 Please provide a valid zip.
               </div>
             </div>
             <div className="col-12 mt-4">
-              {/* <label htmlFor="validationCustom05" className="form-label">Dejenos su mensaje</label> */}
+              
               <textarea className='form-label transparente' name="" id="" cols="45" rows="5" placeholder='Mensaje'></textarea>
             </div>
             <div className="col-12 mt-4 text-center">
               <button className="btn btn-primary px-5 py-1" type="submit">Enviar</button>
             </div>
           </form>
+        </div> */}
+        <div className="col">
+        <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+        </form>
         </div>
       </div>
         </div>
