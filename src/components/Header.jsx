@@ -73,27 +73,14 @@ const Header = () => {
                     <li class="nav-item">
                       <Link to="/formas-de-trabajo" className="button2">Formas de Trabajo</Link>
                     </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle button2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Servicios
-                      </a>
-                      <ul class="dropdown-menu dropdown-menu-dark">
-                        <li>
-                          <Link to="/landing-page" className="button2 " >Landing Page</Link>
-                          </li>
-                          <li>
-                              <hr class="dropdown-divider"></hr>
-                          </li>
-                          <li>
-                          <Link to="/e-comerce" id='e-commerce' className="button2">E-comerce</Link>
-                          </li>
-                          <li>
-                              <hr class="dropdown-divider"></hr>
-                          </li>
-                          <li>
-                            <Link to="/web-corporativa" className="button2" >Web Corporativa</Link>
-                          </li>
-                      </ul>
+                    <li>
+                      <Link to="/landing-page" className="button2 " >Landing Page</Link>
+                    </li>
+                    <li>
+                      <Link to="/e-comerce" id='e-commerce' className="button2">E-comerce</Link>
+                    </li>
+                    <li>
+                      <Link to="/web-corporativa" className="button2" >Web Corporativa</Link>
                     </li>
                     <li class="nav-item">
                       <Link to="/contacto" className="button2">Contacto</Link>
