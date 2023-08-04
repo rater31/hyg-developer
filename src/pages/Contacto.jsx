@@ -64,83 +64,36 @@ const Contacto = () => {
           </div>
 
         </div>
-        <div className="row d-grid justify-content-center mt-5">
-          {/* <div className="col ">
-          <form className="row  d-grid g-3 needs-validation  justify-content-center" noValidate>
-            <div className="col-12 mt-4">
-            
-              <input type="text" className=" transparente " id="validationCustom01" placeholder="Nombre y Apellido" required />
-              <div className="valid-feedback">
-                Looks good!
-              </div>
-            </div>
-        
-            <div className="col-12 mt-4">
-              
-              <div className="input-group has-validation">
-                <input type="text" className="transparente" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder='Tu.instagram' required />
-                <div className="invalid-feedback">
-                  Please choose a username.
-                </div>
-              </div>
-            </div>
-            <div className="col-12 mt-4">
-
-              <input type="email" className=" transparente" id="validationCustom03" placeholder="Email" required />
-              <div className="invalid-feedback">
-                Please provide a valid city.
-              </div>
-            </div>
-
-            <div className="col-12 mt-4">
-              
-              <input type="tel" className=" transparente" id="validationCustom05" placeholder='Tu Número de Teléfono o Celular' required />
-              <div className="invalid-feedback">
-                Please provide a valid zip.
-              </div>
-            </div>
-            <div className="col-12 mt-4">
-              
-              <textarea className='form-label transparente' name="" id="" cols="45" rows="5" placeholder='Mensaje'></textarea>
-            </div>
-            <div className="col-12 mt-4 text-center">
-              <button className="btn btn-primary px-5 py-1" type="submit">Enviar</button>
-            </div>
-          </form>
-        </div> */}
-        <div className="col-12">
-          <form ref={form} onSubmit={sendEmail} className=' '>
-            <div className="col-12  mt-4">
+        <div className="d-grid justify-content-center mt-5">
+          <form ref={form} onSubmit={sendEmail} className='col-12 d-grid justify-content-center '>
+            {/* <div className="col-12  mt-4"> */}
               <input className='transparente' type="text" name="user_name" placeholder='Nombre y Apellido' />
-            </div>
-            <div className="col-12 mt-4">
+            {/* </div> */}
+            {/* <div className="col-12 mt-4"> */}
               <input className='transparente' type="email" name="user_email" placeholder='Email' />
 
-            </div>
+            {/* </div> */}
 
-            <div className="col-12 mt-4">
+            {/* <div className="col-12 mt-4"> */}
               <input className='transparente' type="tel" name="user_number" placeholder='Tu número de teléfono o celular' />
 
-            </div>
+            {/* </div> */}
 
-            <div className="col-12 mt-4">
+            {/* <div className="col-12 mt-4"> */}
 
-            <textarea className='transparente' cols="45" rows="5" name="message" placeholder='Mensaje' />
-            </div>
-
-  
-
+              <textarea className='transparente' cols="45" rows="5" name="message" placeholder='Mensaje' />
+            {/* </div> */}
 
             <input type="submit" value="Enviar" className='btn btn-primary px-5 py-1 mt-4' />
           </form>
 
         </div>
 
-        </div>
       </div>
-
-
     </div>
+
+
+
 
 
   );
