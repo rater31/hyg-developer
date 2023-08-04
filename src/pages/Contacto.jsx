@@ -64,7 +64,7 @@ const Contacto = () => {
           </div>
 
         </div>
-        <div className="row mt-5">
+        <div className="row d-grid justify-content-center mt-5">
           {/* <div className="col ">
           <form className="row  d-grid g-3 needs-validation  justify-content-center" noValidate>
             <div className="col-12 mt-4">
@@ -109,7 +109,7 @@ const Contacto = () => {
           </form>
         </div> */}
         <div className="col-12">
-          <form ref={form} onSubmit={sendEmail} className='row d-grid justify-content-center'>
+          <form ref={form} onSubmit={sendEmail} className=' '>
             <div className="col-12  mt-4">
               <input className='transparente' type="text" name="user_name" placeholder='Nombre y Apellido' />
             </div>
