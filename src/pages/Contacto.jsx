@@ -66,23 +66,23 @@ const Contacto = () => {
         </div>
         <div className="d-grid justify-content-center mt-5">
           <form ref={form} onSubmit={sendEmail} className='col-12 d-grid justify-content-center '>
-            {/* <div className="col-12  mt-4"> */}
+            <div className=" mt-4">
               <input className='transparente' type="text" name="user_name" placeholder='Nombre y Apellido' />
-            {/* </div> */}
-            {/* <div className="col-12 mt-4"> */}
+            </div>
+            <div className="mt-4">
               <input className='transparente' type="email" name="user_email" placeholder='Email' />
 
-            {/* </div> */}
+            </div>
 
-            {/* <div className="col-12 mt-4"> */}
+            <div className=" mt-4">
               <input className='transparente' type="tel" name="user_number" placeholder='Tu número de teléfono o celular' />
 
-            {/* </div> */}
+            </div>
 
-            {/* <div className="col-12 mt-4"> */}
+            <div className=" mt-4">
 
               <textarea className='transparente' cols="45" rows="5" name="message" placeholder='Mensaje' />
-            {/* </div> */}
+            </div>
 
             <input type="submit" value="Enviar" className='btn btn-primary px-5 py-1 mt-4' />
           </form>
