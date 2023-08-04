@@ -108,7 +108,7 @@ const Contacto = () => {
             </div>
           </form>
         </div> */}
-
+        <div className="col-12">
           <form ref={form} onSubmit={sendEmail} className='row d-grid justify-content-center'>
             <div className="col-12  mt-4">
               <input className='transparente' type="text" name="user_name" placeholder='Nombre y Apellido' />
@@ -133,6 +133,8 @@ const Contacto = () => {
 
             <input type="submit" value="Enviar" className='btn btn-primary px-5 py-1 mt-4' />
           </form>
+
+        </div>
 
         </div>
       </div>
