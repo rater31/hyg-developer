@@ -49,13 +49,13 @@ const Contacto = () => {
               <h3 className='text-center mediante'>Tambien puedes contarcarnos mediante:</h3>
               <div className="row d-grid justify-content-center">
                 <div className="col mt-3">
-                  <span ><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" /> (+54) 351 2405292</span>
+                  <a href='https://api.whatsapp.com/send?phone=3512405292' target='-blanc' className='redes'><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" /> (+54) 351 2405292</a>
                 </div>
                 <div className="col mt-3">
-                  <span ><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" />(+54) 387 6333189</span>
+                  <a href='https://api.whatsapp.com/send?phone=3876333189' target='-blanc' className='redes' ><img src={logoWp} className='logo-contacto me-2' alt="" srcset="" />(+54) 387 6333189</a>
                 </div>
                 <div className="col mt-3">
-                  <span ><img src={logoGmail} className='logo-contacto me-2' alt="" srcset="" />hygdevelopers@gmail.com</span>
+                  <a href='mailto:hygdevelopers@gmail.com' target='-blanc' className='redes' ><img src={logoGmail} className='logo-contacto me-2' alt="" srcset="" />hygdevelopers@gmail.com</a>
 
                 </div>
 
@@ -64,6 +64,7 @@ const Contacto = () => {
           </div>
 
         </div>
+        {/* ========================Formulario de contacto================================== */}
         <div className="d-grid justify-content-center mt-5">
           <form ref={form} onSubmit={sendEmail} className='col-12 d-grid justify-content-center '>
             <div className=" mt-4">

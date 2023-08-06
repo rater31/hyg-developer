@@ -1,33 +1,51 @@
-.logo-redes{
+.logo-redes {
     width: 30px;
     margin-top: 10px;
 }
-.logo-contacto{
+
+.redes {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+        transform: scale(1.1);
+        color: yellow;
+        transition: 0.4s;
+    }
+}
+
+.logo-contacto {
     width: 20px;
 }
-.line3{
-    height:200px;
+
+.line3 {
+    height: 200px;
     background-color: red;
     border-radius: 15px;
     width: 3px;
-    
+
 }
-.contact{
+
+.contact {
     font-size: 20px;
 }
-.mediante{
+
+.mediante {
     font-size: 25px;
 }
-.fondo-pc{
+
+.fondo-pc {
     background-image: url(../assets/pc-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.fondo-niga{
+
+.fondo-niga {
     background-color: #0000008f;
 }
-.transparente{
+
+.transparente {
     background-color: transparent;
     border-radius: 15px;
     width: 100%;
@@ -36,6 +54,7 @@
     color: white;
 
 }
-::-webkit-input-placeholder{
+
+::-webkit-input-placeholder {
     color: whitesmoke;
 }
