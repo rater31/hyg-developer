@@ -40,7 +40,7 @@ const Contacto = () => {
               <h4>Seguinos en nuestras redes</h4>
               <a href="https://www.instagram.com/hgdevelopers/" target='-blanc'><img src={logoInstagram} alt="" srcset="" className='logo-redes' /></a>
               <br></br>
-              <a href="#"><img src={logoLinkedin} alt="" srcset="" className='logo-redes' /></a>
+              <a href="https://www.linkedin.com/in/hyg-developers-803084287/"><img src={logoLinkedin} alt="" srcset="" className='logo-redes' /></a>
               <br></br>
               <a href="#"><img src={logoface} alt="" srcset="" className='logo-redes' /></a>
 
