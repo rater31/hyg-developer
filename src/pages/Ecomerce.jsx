@@ -1,6 +1,6 @@
 import {React, useRef} from 'react';
-import Ecomerce1 from '../assets/Ecomerce1.png'
-import Ecomerce2 from '../assets/Ecomerce2.png'
+import Ecomerce1 from '../assets/ecommerce1.png'
+import Ecomerce2 from '../assets/ecommerce2.png'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
@@ -87,13 +87,13 @@ const Ecomerce = () => {
                     <IzDer><p className='mt-3'>Nuestro equipo de diseño y programación garantiza que tu tienda en línea no sólo se vea genial, sino que también sea fácil de usar y mantener. Incrementa tus ventas y expande tu negocio.</p></IzDer>
                 </div>
                 <div className="col-6 justify-content-center d-flex">
-                    <DerIz><img src={Ecomerce1} className='image d-none d-md-block' alt="" /></DerIz>
+                    <DerIz><img src={Ecomerce2} className='image d-none d-md-block' alt="" /></DerIz>
                 </div>
 
             </div>
             <div className="row align-items-center  mt-5">
                 <div className="col-6 justify-content-center d-flex">
-                    <IzDer><img src={Ecomerce2} className='image d-none d-md-block' alt="" /></IzDer>
+                    <IzDer><img src={Ecomerce1} className='image d-none d-md-block' alt="" /></IzDer>
                 </div>
                 <div className="col-12 col-md-5 text-center">
                     <DerIz><h4>

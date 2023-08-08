@@ -1,7 +1,7 @@
 import { React, useRef } from 'react';
-import desarrollo from '../assets/desarrollo.svg'
-import testeo from '../assets/testeo-y-prueba.jpg'
-import diseño from '../assets/diseño.jpg'
+import desarrollo from '../assets/formas-2.png'
+import testeo from '../assets/formas3.png'
+import diseño from '../assets/formas-1.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
 
 

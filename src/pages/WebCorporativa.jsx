@@ -1,10 +1,10 @@
 import {React, useRef} from 'react';
 import '../css/web-corporativa.css'
-import WebCorp1 from '../assets/WebCorp1.jpg'
-import WebCorp2 from '../assets/WebCorp2.jpg'
-import basic from '../assets/basic.png'
-import standard from '../assets/standard.png'
-import premium from '../assets/premium.png'
+import WebCorp1 from '../assets/web1.png'
+import WebCorp2 from '../assets/web2.png'
+import basic from '../assets/basico.png'
+import standard from '../assets/standard2.png'
+import premium from '../assets/premium2.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
 
 

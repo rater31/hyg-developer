@@ -1,7 +1,7 @@
 import {React, useRef} from 'react';
 import '../css/landing.css'
-import Landing2 from '../assets/landing2.png'
-import Landing1 from '../assets/landing1.png'
+import Landing2 from '../assets/landing-2.png'
+import Landing1 from '../assets/landing-1.png'
 import basic from '../assets/basic.png'
 import standard from '../assets/standard.png'
 import premium from '../assets/premium.png'
@@ -91,13 +91,13 @@ const LandinPage = () => {
                     <IzDer> <p className='mt-3'> Ofrecemos diseños personalizados y funciones únicas para garantizar que tu página de aterrizaje destaque en el mercado.</p></IzDer> 
                 </div>
                 <div className="col-12 col-md-6 justify-content-center d-flex">
-                    <DerIz><img src={Landing2} className='image d-none d-md-block' alt="" /></DerIz>
+                    <DerIz><img src={Landing1} className='image d-none d-md-block' alt="" /></DerIz>
                 </div>
 
             </div>
             <div className="row align-items-center  mt-5">
                 <div className=" col-11 col-md-6 justify-content-center d-flex">
-                    <IzDer> <img src={Landing1} className='image d-none d-md-block' alt="" /></IzDer> 
+                    <IzDer> <img src={Landing2} className='image d-none d-md-block' alt="" /></IzDer> 
                 </div>
                 <div className=" col-12 col-md-5 text-center">
                     <DerIz> <h4>
