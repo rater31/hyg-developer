@@ -4,7 +4,7 @@ import Landing2 from '../assets/landing-2.png'
 import Landing1 from '../assets/landing-1.png'
 import basic from '../assets/basico.png'
 import standard from '../assets/standard-2.png'
-import premium from '../assets/premium2.png'
+import premium from '../assets/premium-2.png'
 import {useInView } from 'framer-motion'
 import { Link } from 'react-router-dom';
 const LandinPage = () => {

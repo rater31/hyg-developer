@@ -4,7 +4,7 @@ import WebCorp1 from '../assets/web1.png'
 import WebCorp2 from '../assets/web2.png'
 import basic from '../assets/basico.png'
 import standard from '../assets/standard-2.png'
-import premium from '../assets/premium2.png'
+import premium from '../assets/premium-2.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
 import { Link } from 'react-router-dom';
 

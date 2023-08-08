@@ -3,7 +3,7 @@ import Ecomerce1 from '../assets/ecommerce1.png'
 import Ecomerce2 from '../assets/ecommerce2.png'
 import basic from '../assets/basico.png'
 import standard from '../assets/standard-2.png'
-import premium from '../assets/premium2.png'
+import premium from '../assets/premium-2.png'
 import '../css/landing.css'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
 import { Link } from 'react-router-dom';
