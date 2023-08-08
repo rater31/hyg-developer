@@ -11,3 +11,8 @@
     width: 150px;
 	align-self: center;
 }
+.bg-card{
+    background-color: transparent;
+    border: solid 3px white;
+    color: white;
+}

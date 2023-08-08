@@ -113,24 +113,24 @@ const WebCorporativa = () => {
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de web corporativa.</p>
             </div>
             <AbAr><div className="row justify-content-around mt-pajarito">
-                <div className="card mb-5" style={{ width: '18rem' }}>
-                    <img src={basic} className="card-img-top logo-carta" alt="..." />
+                <div className="card bg-card mb-5" style={{ width: '18rem' }}>
+                    <img src={basic} className="card-img-top mt-2 logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card mb-5" style={{ width: '18rem' }}>
-                    <img src={standard} className="card-img-top logo-carta" alt="..." />
+                <div className="card bg-card mb-5" style={{ width: '18rem' }}>
+                    <img src={standard} className="card-img-top logo-carta mt-2" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" className="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div className="card mb-5" style={{ width: '18rem' }}>
-                    <img src={premium} className="card-img-top logo-carta" alt="..." />
+                <div className="card bg-card mb-5" style={{ width: '18rem' }}>
+                    <img src={premium} className="card-img-top mt-2 logo-carta" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
