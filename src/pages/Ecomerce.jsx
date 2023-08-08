@@ -6,6 +6,7 @@ import standard from '../assets/standard2.png'
 import premium from '../assets/premium2.png'
 import '../css/landing.css'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 const Ecomerce = () => {
     function IzDer({ children }) {
@@ -130,7 +131,7 @@ const Ecomerce = () => {
                             <li> Certificado SSL </li>
                             <li> sin mantenimiento </li>
                         </ul>
-                        <a href="#" className="btn btn-danger">Mas info</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
                 </div>
                 <div className="card bg-card mb-5" style={{ width: '18rem' }}>
@@ -154,7 +155,7 @@ const Ecomerce = () => {
                             <li> Certificado SSL </li>
                             <li> Mantenimiento (opcional, tiene cargo adicional) </li>
                         </ul>
-                        <a href="#" className="btn btn-danger">Mas info</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
                 </div>
                 <div className="card bg-card mb-5" style={{ width: '18rem' }}>
@@ -178,7 +179,7 @@ const Ecomerce = () => {
                             <li> Certificado SSL </li>
                             <li> Mantenimiento por un año </li>
                         </ul>
-                        <a href="#" className="btn btn-danger">Mas info</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
                 </div>
             </div></AbAr>
