@@ -21,3 +21,9 @@
     transform: translateY(-100px);
     opacity: 0;
   }
+
+.bg-card{
+    background-color: transparent;
+    border: solid 3px white;
+    color: white;
+}

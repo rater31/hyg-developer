@@ -2,9 +2,9 @@ import {React, useRef} from 'react';
 import '../css/landing.css'
 import Landing2 from '../assets/landing-2.png'
 import Landing1 from '../assets/landing-1.png'
-import basic from '../assets/basic.png'
-import standard from '../assets/standard.png'
-import premium from '../assets/premium.png'
+import basic from '../assets/basico.png'
+import standard from '../assets/standard2.png'
+import premium from '../assets/premium2.png'
 import {useInView } from 'framer-motion'
 import { Link } from 'react-router-dom';
 const LandinPage = () => {
@@ -114,8 +114,8 @@ const LandinPage = () => {
                 <p>No esperes más, aumenta tus ingresos y conquista el mercado con nuestros servicios de Landing Page.</p>
             </div>
             <AbAr><div className="row justify-content-around mt-5">
-                <div className="card mb-5" style={{ width: '18rem' }}>
-                    <img src={basic} className="card-img-top logo-carta" alt="..." />
+                <div className="card bg-card mb-5 " style={{ width: '18rem', height:'43rem' }}>
+                    <img src={basic} className="card-img-top logo-carta mt-2" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Servicio Basico</h5>
                         <ul className="card-text">El servicio cuenta con:
@@ -130,11 +130,11 @@ const LandinPage = () => {
                         <li> sin necesidad de mantenimiento</li>
                         
                         </ul>
-                        <Link to="/contacto"><a href="" className="btn btn-primary">Mas Info</a></Link>
+                        <Link to="/contacto"><a href="" className="btn btn-danger">Mas Info</a></Link>
                     </div>
                 </div>
-                <div className="card mb-5" style={{ width: '18rem' }}>
-                    <img src={standard} className="card-img-top logo-carta" alt="..." />
+                <div className="card bg-card mb-5" style={{ width: '18rem', height:'53rem' }}>
+                    <img src={standard} className="card-img-top logo-carta mt-2" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Servicio Standard</h5>
                         <ul className="card-text"> El servicio cuenta con:
@@ -154,11 +154,11 @@ const LandinPage = () => {
                         <li> sin necesidad de mantenimiento </li>
 
                         </ul>
-                        <Link to="/contacto"><a href="#" className="btn btn-primary">Mas Info</a></Link>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas Info</a></Link>
                     </div>
                 </div>
-                <div className="card mb-5" style={{ width: '18rem' }}>
-                    <img src={premium} className="card-img-top logo-carta" alt="..." />
+                <div className="card bg-card mb-5" style={{ width: '18rem' }}>
+                    <img src={premium} className="card-img-top logo-carta mt-2" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Servicio Premium</h5>
                         <ul className="card-text">El servicio cuenta con:
@@ -180,7 +180,7 @@ const LandinPage = () => {
                         <li> Certificado SSL</li>
                         <li> sin necesidad de mantenimiento</li>
                         </ul>
-                        <Link to="/contacto"><a href="#" className="btn btn-primary">Mas Info</a></Link>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas Info</a></Link>
                     </div>
                 </div>
             </div></AbAr>
