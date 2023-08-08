@@ -6,6 +6,7 @@ import basic from '../assets/basico.png'
 import standard from '../assets/standard2.png'
 import premium from '../assets/premium2.png'
 import { motion, useTime, useTransform, useInView } from 'framer-motion'
+import { Link } from 'react-router-dom';
 
 
 const WebCorporativa = () => {
@@ -133,7 +134,7 @@ const WebCorporativa = () => {
                             <li> Certificado SSL </li>
                             <li> sin mantenimiento </li>
                         </ul>
-                        <a href="#" className="btn btn-danger">Mas info</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
                 </div>
                 <div className="card bg-card mb-5" style={{ width: '18rem' }}>
@@ -156,7 +157,7 @@ const WebCorporativa = () => {
                             <li> Certificado SSL </li>
                             <li> sin mantenimiento </li>
                         </ul>
-                        <a href="#" className="btn btn-danger">Go somewhere</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
                 </div>
                 <div className="card bg-card mb-5" style={{ width: '18rem' }}>
@@ -179,7 +180,7 @@ const WebCorporativa = () => {
                             <li> Certificado SSL </li>
                             <li> sin mantenimiento </li>
                         </ul>
-                        <a href="#" className="btn btn-danger">Go somewhere</a>
+                        <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
                 </div>
             </div></AbAr>
