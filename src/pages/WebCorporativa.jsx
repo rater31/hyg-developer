@@ -95,11 +95,11 @@ const WebCorporativa = () => {
                 </div>
             </div>
 
-            <div className="row align-items-center  mt-5">
+            <div className="row align-items-center justify-content-center mt-5">
                 <div className="col-6 justify-content-center d-flex">
                     <IzDer><img src={WebCorp2} className='image d-none d-md-block' alt="" /></IzDer>
                 </div>
-                <div className="col-12 col-md-5 text-center">
+                <div className="col-11 col-md-5 text-center">
                     <DerIz><h4>
                         Optimización Y Promoción Online
                     </h4></DerIz>

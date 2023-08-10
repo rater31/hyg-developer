@@ -98,13 +98,13 @@ const LandinPage = () => {
                 </div>
 
             </div>
-            <div className="row align-items-center  mt-5">
+            <div className="row align-items-center justify-content-center mt-5">
                 <div className=" col-11 col-md-6 justify-content-center d-flex">
                     <IzDer> <img src={Landing2} className='image-landing d-none d-md-block' alt="" /></IzDer> 
                 </div>
-                <div className=" col-12 col-md-5 text-center">
+                <div className=" col-11 col-md-5 text-center">
                     <DerIz> <h4>
-                        Diseño Personalizado y Funcionalidad Única
+                        Insertar Titulo Correspondiente
                     </h4></DerIz>
                     <DerIz> <div className="row justify-content-center">
                         <div className="line w-50"></div>
