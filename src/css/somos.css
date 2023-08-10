@@ -17,7 +17,16 @@
 }
 
 .imageServicio {
-    height: 350px;
+    height: 340px;
+
+    border-radius: 15px;
+
+    @media (max-width: 897px) {
+        height: 200px;
+    }
+}
+.imageServicioU {
+    height: 340px;
 
     border-radius: 15px;
 

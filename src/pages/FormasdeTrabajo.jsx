@@ -74,7 +74,7 @@ const FormasdeTrabajo = () => {
          <div className='row text-center align-items-center'>
             <div className="col-12 col-md-5 d-flex justify-content-center ms-3 mt-5">
                <IzDer>
-                  <img src={desarrollo} alt="" className='imageServicio d-none d-md-block' />
+                  <img src={desarrollo} alt="" className='imageServicioU d-none d-md-block' />
                </IzDer>
             </div>
             <div className='col-11 col-md-6 ms-3 mt-5'>
