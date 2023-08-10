@@ -36,7 +36,7 @@ const FormasdeTrabajo = () => {
          <section ref={ref}>
             <span
                style={{
-                  transform: isInView ? "none" : "translateX(100px)",
+                  transform: isInView ? "none" : "translateX(7px)",
                   opacity: isInView ? 1 : 0,
                   transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
                }}
@@ -93,7 +93,7 @@ const FormasdeTrabajo = () => {
                   <IzDer ><p className='mt-3'>Una vez que la página web está desarrollada, se debe probar para asegurarse de que funciona correctamente. Esto implica probar la página web en diferentes navegadores, dispositivos y resoluciones de pantalla.</p></IzDer>
                </div>
             </div>
-            <div className='col-12 col-md-4 d-flex justify-content-center ms-3 mt-5'>
+            <div className='col-12 col-md-5 d-flex justify-content-center ms-3 mt-5'>
                <DerIz>
                   <img src={testeo} className='imageServicio d-none d-md-block' alt="" />
 

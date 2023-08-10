@@ -50,7 +50,7 @@ const Somos = () => {
         <div className="col ">
 
           <div className='row justify-content-around text-light '>
-            <div className="col-12 col-md-6 col-xxl-2  mt-5 ">
+            <div className="col-12 col-md-5 col-xxl-2  mt-5 ">
               <IzDer>
                 <img className='image d-none d-md-block' src={pcOscura} alt="" srcset="" />
               </IzDer>

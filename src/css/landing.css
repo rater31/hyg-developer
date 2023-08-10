@@ -1,28 +1,37 @@
-.hola{
+.hola {
     color: white;
 }
-.image{
+
+.image-landing {
     height: 350px;
+
     border-radius: 15px;
-    
+
+    @media (max-width: 897px) {
+        height: 250px;
+    }
+
 }
-.mt-pajarito{
+
+.mt-pajarito {
     margin-top: 200px;
 }
-.logo-carta{
+
+.logo-carta {
     height: 150px;
     width: 150px;
     align-self: center;
 }
-  /* experimento */
 
-  .seccion .span{
+/* experimento */
+
+.seccion .span {
     display: block;
-    transform: translateY(-100px);
+    transform: translateY(-7px);
     opacity: 0;
-  }
+}
 
-.bg-card{
+.bg-card {
     background-color: transparent;
     border: solid 3px white;
     color: white;
