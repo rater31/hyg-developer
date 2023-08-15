@@ -91,7 +91,7 @@ const LandinPage = () => {
                         <div className="line w-50"></div>
                     </div></IzDer>
 
-                    <IzDer> <p className='mt-3'> Ofrecemos diseños personalizados y funciones únicas para garantizar que tu página de aterrizaje destaque en el mercado.</p></IzDer> 
+                    <IzDer> <p className='mt-3'> Ofrecemos diseños personalizados y funciones únicas para garantizar que tu Landing Page destaque en el mercado.</p></IzDer> 
                 </div>
                 <div className="col-12 col-md-6 justify-content-center d-flex">
                     <DerIz><img src={Landing1} className='image-landing d-none d-md-block' alt="" /></DerIz>
@@ -104,12 +104,12 @@ const LandinPage = () => {
                 </div>
                 <div className=" col-11 col-md-5 text-center">
                     <DerIz> <h4>
-                        Insertar Titulo Correspondiente
+                        Insertar Titulo
                     </h4></DerIz>
                     <DerIz> <div className="row justify-content-center">
                         <div className="line w-50"></div>
                     </div></DerIz>
-                    <DerIz><p className='mt-3'>Nuestro talentoso equipo de diseñadores y desarrolladores trabajará contigo para crear la página de aterrizaje perfecta para tu negocio.</p></DerIz>
+                    <DerIz><p className='mt-3'>Nuestro talentoso equipo de diseñadores y desarrolladores trabajará contigo para crear tu Landing Page perfecta para tu negocio.</p></DerIz>
                 </div>
             </div>
             <div className="row text-center mt-5">
