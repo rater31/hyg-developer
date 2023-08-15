@@ -121,15 +121,12 @@ const WebCorporativa = () => {
                         <ul className="card-text"> El servicio que ofrecemos cuenta con:
                             <li> Sitio creado en WordPress </li>
                             <li> 3 Secciones de precargada </li>
-                            <li> Hasta 5 productos precargadas </li>
-                            <li> Carrusel/ Slider hasta 5 fotos </li>
+                            <li> Hasta 2 subsecciones precargadas </li>
+                            <li> Carrusel/ Slider hasta 3 fotos </li>
                             <li> Optimizacion para todos los dispositivos </li>
                             <li> Formulario de Contacto </li>
                             <li> Redireccionamiento a redes sociales </li>
                             <li> Boton WhatsApp con mensaje a tu gusto </li>
-                            <li> Dominio propio por un año </li>
-                            <li> Servicio de Hosting por un año </li>
-                            <li> E-mail personalizado </li>
                             <li> Optimizado con Google Adwords </li>
                             <li> Certificado SSL </li>
                             <li> sin mantenimiento </li>
@@ -143,19 +140,19 @@ const WebCorporativa = () => {
                         <h5 className="card-title">Servicio Standard</h5>
                         <ul className="card-text">El servicio que ofrecemos cuenta con:
                             <li> Sitio creado en WordPress </li>
-                            <li> 3 Secciones de precargada </li>
-                            <li> Hasta 5 productos precargadas </li>
+                            <li> 5 Secciones de precargada </li>
+                            <li> Hasta 5 subsecciones precargadas </li>
                             <li> Carrusel/ Slider hasta 5 fotos </li>
                             <li> Optimizacion para todos los dispositivos </li>
                             <li> Formulario de Contacto </li>
                             <li> Redireccionamiento a redes sociales </li>
                             <li> Boton WhatsApp con mensaje a tu gusto </li>
-                            <li> Dominio propio por un año </li>
-                            <li> Servicio de Hosting por un año </li>
+                            <li> Dominio propio por un año (es opcional y tiene cargo adicional)  </li>
+                            <li> Servicio de Hosting por un año (es opcional y tiene cargo adicional) </li>
                             <li> E-mail personalizado </li>
                             <li> Optimizado con Google Adwords </li>
                             <li> Certificado SSL </li>
-                            <li> sin mantenimiento </li>
+                            <li> manteniminento por un año (es opcional y tiene cargo adicional) </li>
                         </ul>
                         <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>
@@ -165,10 +162,10 @@ const WebCorporativa = () => {
                     <div className="card-body">
                         <h5 className="card-title">Servicio Premium</h5>
                         <ul className="card-text">El servicio que ofrecemos cuenta con:
-                            <li> Sitio creado en WordPress </li>
-                            <li> 3 Secciones de precargada </li>
-                            <li> Hasta 5 productos precargadas </li>
-                            <li> Carrusel/ Slider hasta 5 fotos </li>
+                            <li> Sitio creado en React Vite o WordPress (decision del cliente) </li>
+                            <li> 7 Secciones de precargada </li>
+                            <li> Hasta 6 subsecciones precargadas </li>
+                            <li> Carrusel/ Slider hasta 10 fotos </li>
                             <li> Optimizacion para todos los dispositivos </li>
                             <li> Formulario de Contacto </li>
                             <li> Redireccionamiento a redes sociales </li>
@@ -178,7 +175,7 @@ const WebCorporativa = () => {
                             <li> E-mail personalizado </li>
                             <li> Optimizado con Google Adwords </li>
                             <li> Certificado SSL </li>
-                            <li> sin mantenimiento </li>
+                            <li> mantenimiento por un año </li>
                         </ul>
                         <Link to="/contacto"><a href="#" className="btn btn-danger">Mas info</a></Link>
                     </div>

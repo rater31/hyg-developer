@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className='text-center bg-footer p-2 mt-5'>
             
                 <div className="col">
-                    <span className='text-light '> Todos los derechos e izquierdos reservado | H&G Developers </span>
+                    <span className='text-light '> Todos los derechos reservados | H&G Developers </span>
 
                 </div>
             
