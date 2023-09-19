@@ -1,11 +1,11 @@
 import { React, useRef } from 'react';
-import logoInstagram from '../assets/instagram.png'
-import logoLinkedin from '../assets/linkedin.png'
+import logoInstagram from '../assets/instagram.avif'
+import logoLinkedin from '../assets/linkedin.avif'
 import logoTiktok from '../assets/tik-tok.png'
 import logoWp from '../assets/whatsapp.png'
-import logoGmail from '../assets/gmail.png'
-import logoTel from '../assets/mensaje-de-telefono.png'
-import logoface from '../assets/facebook.png'
+import logoGmail from '../assets/gmail.avif'
+import logoTel from '../assets/mensaje-de-telefono.avif'
+import logoface from '../assets/facebook.avif'
 import emailjs from '@emailjs/browser'
 
 

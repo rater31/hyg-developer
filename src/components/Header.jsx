@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png'
+import logo from '../assets/logo.avif'
 import '../css/header.css'
 import { Link } from 'react-router-dom'
 import { motion, useTime, useTransform } from 'framer-motion'
